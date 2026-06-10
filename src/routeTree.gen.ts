@@ -9,14 +9,49 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WarehouseFloorRepairRouteImport } from './routes/warehouse-floor-repair'
+import { Route as TripHazardRemovalRouteImport } from './routes/trip-hazard-removal'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as SidewalkRepairRouteImport } from './routes/sidewalk-repair'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as ServiceAreasRouteImport } from './routes/service-areas'
 import { Route as ResourcesRouteImport } from './routes/resources'
+import { Route as ParkingLotConcreteRepairRouteImport } from './routes/parking-lot-concrete-repair'
+import { Route as LoadingDockRepairRouteImport } from './routes/loading-dock-repair'
 import { Route as IndustriesRouteImport } from './routes/industries'
+import { Route as CurbRepairRouteImport } from './routes/curb-repair'
 import { Route as ContactRouteImport } from './routes/contact'
+import { Route as ConcreteReplacementRouteImport } from './routes/concrete-replacement'
+import { Route as ConcreteRepairZionsvilleInRouteImport } from './routes/concrete-repair-zionsville-in'
+import { Route as ConcreteRepairWestfieldInRouteImport } from './routes/concrete-repair-westfield-in'
+import { Route as ConcreteRepairNoblesvilleInRouteImport } from './routes/concrete-repair-noblesville-in'
+import { Route as ConcreteRepairFishersInRouteImport } from './routes/concrete-repair-fishers-in'
+import { Route as ConcreteRepairCarmelInRouteImport } from './routes/concrete-repair-carmel-in'
+import { Route as CommercialConcreteRepairRouteImport } from './routes/commercial-concrete-repair'
 import { Route as CaseStudiesRouteImport } from './routes/case-studies'
+import { Route as AdaComplianceRepairsRouteImport } from './routes/ada-compliance-repairs'
 import { Route as IndexRouteImport } from './routes/index'
 
+const WarehouseFloorRepairRoute = WarehouseFloorRepairRouteImport.update({
+  id: '/warehouse-floor-repair',
+  path: '/warehouse-floor-repair',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TripHazardRemovalRoute = TripHazardRemovalRouteImport.update({
+  id: '/trip-hazard-removal',
+  path: '/trip-hazard-removal',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
+  id: '/sitemap.xml',
+  path: '/sitemap.xml',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SidewalkRepairRoute = SidewalkRepairRouteImport.update({
+  id: '/sidewalk-repair',
+  path: '/sidewalk-repair',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
   path: '/services',
@@ -32,9 +67,25 @@ const ResourcesRoute = ResourcesRouteImport.update({
   path: '/resources',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ParkingLotConcreteRepairRoute =
+  ParkingLotConcreteRepairRouteImport.update({
+    id: '/parking-lot-concrete-repair',
+    path: '/parking-lot-concrete-repair',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const LoadingDockRepairRoute = LoadingDockRepairRouteImport.update({
+  id: '/loading-dock-repair',
+  path: '/loading-dock-repair',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndustriesRoute = IndustriesRouteImport.update({
   id: '/industries',
   path: '/industries',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CurbRepairRoute = CurbRepairRouteImport.update({
+  id: '/curb-repair',
+  path: '/curb-repair',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ContactRoute = ContactRouteImport.update({
@@ -42,9 +93,53 @@ const ContactRoute = ContactRouteImport.update({
   path: '/contact',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ConcreteReplacementRoute = ConcreteReplacementRouteImport.update({
+  id: '/concrete-replacement',
+  path: '/concrete-replacement',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConcreteRepairZionsvilleInRoute =
+  ConcreteRepairZionsvilleInRouteImport.update({
+    id: '/concrete-repair-zionsville-in',
+    path: '/concrete-repair-zionsville-in',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ConcreteRepairWestfieldInRoute =
+  ConcreteRepairWestfieldInRouteImport.update({
+    id: '/concrete-repair-westfield-in',
+    path: '/concrete-repair-westfield-in',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ConcreteRepairNoblesvilleInRoute =
+  ConcreteRepairNoblesvilleInRouteImport.update({
+    id: '/concrete-repair-noblesville-in',
+    path: '/concrete-repair-noblesville-in',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ConcreteRepairFishersInRoute = ConcreteRepairFishersInRouteImport.update({
+  id: '/concrete-repair-fishers-in',
+  path: '/concrete-repair-fishers-in',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConcreteRepairCarmelInRoute = ConcreteRepairCarmelInRouteImport.update({
+  id: '/concrete-repair-carmel-in',
+  path: '/concrete-repair-carmel-in',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CommercialConcreteRepairRoute =
+  CommercialConcreteRepairRouteImport.update({
+    id: '/commercial-concrete-repair',
+    path: '/commercial-concrete-repair',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const CaseStudiesRoute = CaseStudiesRouteImport.update({
   id: '/case-studies',
   path: '/case-studies',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AdaComplianceRepairsRoute = AdaComplianceRepairsRouteImport.update({
+  id: '/ada-compliance-repairs',
+  path: '/ada-compliance-repairs',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -55,74 +150,207 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/ada-compliance-repairs': typeof AdaComplianceRepairsRoute
   '/case-studies': typeof CaseStudiesRoute
+  '/commercial-concrete-repair': typeof CommercialConcreteRepairRoute
+  '/concrete-repair-carmel-in': typeof ConcreteRepairCarmelInRoute
+  '/concrete-repair-fishers-in': typeof ConcreteRepairFishersInRoute
+  '/concrete-repair-noblesville-in': typeof ConcreteRepairNoblesvilleInRoute
+  '/concrete-repair-westfield-in': typeof ConcreteRepairWestfieldInRoute
+  '/concrete-repair-zionsville-in': typeof ConcreteRepairZionsvilleInRoute
+  '/concrete-replacement': typeof ConcreteReplacementRoute
   '/contact': typeof ContactRoute
+  '/curb-repair': typeof CurbRepairRoute
   '/industries': typeof IndustriesRoute
+  '/loading-dock-repair': typeof LoadingDockRepairRoute
+  '/parking-lot-concrete-repair': typeof ParkingLotConcreteRepairRoute
   '/resources': typeof ResourcesRoute
   '/service-areas': typeof ServiceAreasRoute
   '/services': typeof ServicesRoute
+  '/sidewalk-repair': typeof SidewalkRepairRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/trip-hazard-removal': typeof TripHazardRemovalRoute
+  '/warehouse-floor-repair': typeof WarehouseFloorRepairRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/ada-compliance-repairs': typeof AdaComplianceRepairsRoute
   '/case-studies': typeof CaseStudiesRoute
+  '/commercial-concrete-repair': typeof CommercialConcreteRepairRoute
+  '/concrete-repair-carmel-in': typeof ConcreteRepairCarmelInRoute
+  '/concrete-repair-fishers-in': typeof ConcreteRepairFishersInRoute
+  '/concrete-repair-noblesville-in': typeof ConcreteRepairNoblesvilleInRoute
+  '/concrete-repair-westfield-in': typeof ConcreteRepairWestfieldInRoute
+  '/concrete-repair-zionsville-in': typeof ConcreteRepairZionsvilleInRoute
+  '/concrete-replacement': typeof ConcreteReplacementRoute
   '/contact': typeof ContactRoute
+  '/curb-repair': typeof CurbRepairRoute
   '/industries': typeof IndustriesRoute
+  '/loading-dock-repair': typeof LoadingDockRepairRoute
+  '/parking-lot-concrete-repair': typeof ParkingLotConcreteRepairRoute
   '/resources': typeof ResourcesRoute
   '/service-areas': typeof ServiceAreasRoute
   '/services': typeof ServicesRoute
+  '/sidewalk-repair': typeof SidewalkRepairRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/trip-hazard-removal': typeof TripHazardRemovalRoute
+  '/warehouse-floor-repair': typeof WarehouseFloorRepairRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/ada-compliance-repairs': typeof AdaComplianceRepairsRoute
   '/case-studies': typeof CaseStudiesRoute
+  '/commercial-concrete-repair': typeof CommercialConcreteRepairRoute
+  '/concrete-repair-carmel-in': typeof ConcreteRepairCarmelInRoute
+  '/concrete-repair-fishers-in': typeof ConcreteRepairFishersInRoute
+  '/concrete-repair-noblesville-in': typeof ConcreteRepairNoblesvilleInRoute
+  '/concrete-repair-westfield-in': typeof ConcreteRepairWestfieldInRoute
+  '/concrete-repair-zionsville-in': typeof ConcreteRepairZionsvilleInRoute
+  '/concrete-replacement': typeof ConcreteReplacementRoute
   '/contact': typeof ContactRoute
+  '/curb-repair': typeof CurbRepairRoute
   '/industries': typeof IndustriesRoute
+  '/loading-dock-repair': typeof LoadingDockRepairRoute
+  '/parking-lot-concrete-repair': typeof ParkingLotConcreteRepairRoute
   '/resources': typeof ResourcesRoute
   '/service-areas': typeof ServiceAreasRoute
   '/services': typeof ServicesRoute
+  '/sidewalk-repair': typeof SidewalkRepairRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/trip-hazard-removal': typeof TripHazardRemovalRoute
+  '/warehouse-floor-repair': typeof WarehouseFloorRepairRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/ada-compliance-repairs'
     | '/case-studies'
+    | '/commercial-concrete-repair'
+    | '/concrete-repair-carmel-in'
+    | '/concrete-repair-fishers-in'
+    | '/concrete-repair-noblesville-in'
+    | '/concrete-repair-westfield-in'
+    | '/concrete-repair-zionsville-in'
+    | '/concrete-replacement'
     | '/contact'
+    | '/curb-repair'
     | '/industries'
+    | '/loading-dock-repair'
+    | '/parking-lot-concrete-repair'
     | '/resources'
     | '/service-areas'
     | '/services'
+    | '/sidewalk-repair'
+    | '/sitemap.xml'
+    | '/trip-hazard-removal'
+    | '/warehouse-floor-repair'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/ada-compliance-repairs'
     | '/case-studies'
+    | '/commercial-concrete-repair'
+    | '/concrete-repair-carmel-in'
+    | '/concrete-repair-fishers-in'
+    | '/concrete-repair-noblesville-in'
+    | '/concrete-repair-westfield-in'
+    | '/concrete-repair-zionsville-in'
+    | '/concrete-replacement'
     | '/contact'
+    | '/curb-repair'
     | '/industries'
+    | '/loading-dock-repair'
+    | '/parking-lot-concrete-repair'
     | '/resources'
     | '/service-areas'
     | '/services'
+    | '/sidewalk-repair'
+    | '/sitemap.xml'
+    | '/trip-hazard-removal'
+    | '/warehouse-floor-repair'
   id:
     | '__root__'
     | '/'
+    | '/ada-compliance-repairs'
     | '/case-studies'
+    | '/commercial-concrete-repair'
+    | '/concrete-repair-carmel-in'
+    | '/concrete-repair-fishers-in'
+    | '/concrete-repair-noblesville-in'
+    | '/concrete-repair-westfield-in'
+    | '/concrete-repair-zionsville-in'
+    | '/concrete-replacement'
     | '/contact'
+    | '/curb-repair'
     | '/industries'
+    | '/loading-dock-repair'
+    | '/parking-lot-concrete-repair'
     | '/resources'
     | '/service-areas'
     | '/services'
+    | '/sidewalk-repair'
+    | '/sitemap.xml'
+    | '/trip-hazard-removal'
+    | '/warehouse-floor-repair'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AdaComplianceRepairsRoute: typeof AdaComplianceRepairsRoute
   CaseStudiesRoute: typeof CaseStudiesRoute
+  CommercialConcreteRepairRoute: typeof CommercialConcreteRepairRoute
+  ConcreteRepairCarmelInRoute: typeof ConcreteRepairCarmelInRoute
+  ConcreteRepairFishersInRoute: typeof ConcreteRepairFishersInRoute
+  ConcreteRepairNoblesvilleInRoute: typeof ConcreteRepairNoblesvilleInRoute
+  ConcreteRepairWestfieldInRoute: typeof ConcreteRepairWestfieldInRoute
+  ConcreteRepairZionsvilleInRoute: typeof ConcreteRepairZionsvilleInRoute
+  ConcreteReplacementRoute: typeof ConcreteReplacementRoute
   ContactRoute: typeof ContactRoute
+  CurbRepairRoute: typeof CurbRepairRoute
   IndustriesRoute: typeof IndustriesRoute
+  LoadingDockRepairRoute: typeof LoadingDockRepairRoute
+  ParkingLotConcreteRepairRoute: typeof ParkingLotConcreteRepairRoute
   ResourcesRoute: typeof ResourcesRoute
   ServiceAreasRoute: typeof ServiceAreasRoute
   ServicesRoute: typeof ServicesRoute
+  SidewalkRepairRoute: typeof SidewalkRepairRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  TripHazardRemovalRoute: typeof TripHazardRemovalRoute
+  WarehouseFloorRepairRoute: typeof WarehouseFloorRepairRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/warehouse-floor-repair': {
+      id: '/warehouse-floor-repair'
+      path: '/warehouse-floor-repair'
+      fullPath: '/warehouse-floor-repair'
+      preLoaderRoute: typeof WarehouseFloorRepairRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/trip-hazard-removal': {
+      id: '/trip-hazard-removal'
+      path: '/trip-hazard-removal'
+      fullPath: '/trip-hazard-removal'
+      preLoaderRoute: typeof TripHazardRemovalRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sitemap.xml': {
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sidewalk-repair': {
+      id: '/sidewalk-repair'
+      path: '/sidewalk-repair'
+      fullPath: '/sidewalk-repair'
+      preLoaderRoute: typeof SidewalkRepairRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/services': {
       id: '/services'
       path: '/services'
@@ -144,11 +372,32 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ResourcesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/parking-lot-concrete-repair': {
+      id: '/parking-lot-concrete-repair'
+      path: '/parking-lot-concrete-repair'
+      fullPath: '/parking-lot-concrete-repair'
+      preLoaderRoute: typeof ParkingLotConcreteRepairRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/loading-dock-repair': {
+      id: '/loading-dock-repair'
+      path: '/loading-dock-repair'
+      fullPath: '/loading-dock-repair'
+      preLoaderRoute: typeof LoadingDockRepairRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/industries': {
       id: '/industries'
       path: '/industries'
       fullPath: '/industries'
       preLoaderRoute: typeof IndustriesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/curb-repair': {
+      id: '/curb-repair'
+      path: '/curb-repair'
+      fullPath: '/curb-repair'
+      preLoaderRoute: typeof CurbRepairRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/contact': {
@@ -158,11 +407,67 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ContactRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/concrete-replacement': {
+      id: '/concrete-replacement'
+      path: '/concrete-replacement'
+      fullPath: '/concrete-replacement'
+      preLoaderRoute: typeof ConcreteReplacementRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/concrete-repair-zionsville-in': {
+      id: '/concrete-repair-zionsville-in'
+      path: '/concrete-repair-zionsville-in'
+      fullPath: '/concrete-repair-zionsville-in'
+      preLoaderRoute: typeof ConcreteRepairZionsvilleInRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/concrete-repair-westfield-in': {
+      id: '/concrete-repair-westfield-in'
+      path: '/concrete-repair-westfield-in'
+      fullPath: '/concrete-repair-westfield-in'
+      preLoaderRoute: typeof ConcreteRepairWestfieldInRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/concrete-repair-noblesville-in': {
+      id: '/concrete-repair-noblesville-in'
+      path: '/concrete-repair-noblesville-in'
+      fullPath: '/concrete-repair-noblesville-in'
+      preLoaderRoute: typeof ConcreteRepairNoblesvilleInRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/concrete-repair-fishers-in': {
+      id: '/concrete-repair-fishers-in'
+      path: '/concrete-repair-fishers-in'
+      fullPath: '/concrete-repair-fishers-in'
+      preLoaderRoute: typeof ConcreteRepairFishersInRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/concrete-repair-carmel-in': {
+      id: '/concrete-repair-carmel-in'
+      path: '/concrete-repair-carmel-in'
+      fullPath: '/concrete-repair-carmel-in'
+      preLoaderRoute: typeof ConcreteRepairCarmelInRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/commercial-concrete-repair': {
+      id: '/commercial-concrete-repair'
+      path: '/commercial-concrete-repair'
+      fullPath: '/commercial-concrete-repair'
+      preLoaderRoute: typeof CommercialConcreteRepairRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/case-studies': {
       id: '/case-studies'
       path: '/case-studies'
       fullPath: '/case-studies'
       preLoaderRoute: typeof CaseStudiesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/ada-compliance-repairs': {
+      id: '/ada-compliance-repairs'
+      path: '/ada-compliance-repairs'
+      fullPath: '/ada-compliance-repairs'
+      preLoaderRoute: typeof AdaComplianceRepairsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -177,12 +482,27 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AdaComplianceRepairsRoute: AdaComplianceRepairsRoute,
   CaseStudiesRoute: CaseStudiesRoute,
+  CommercialConcreteRepairRoute: CommercialConcreteRepairRoute,
+  ConcreteRepairCarmelInRoute: ConcreteRepairCarmelInRoute,
+  ConcreteRepairFishersInRoute: ConcreteRepairFishersInRoute,
+  ConcreteRepairNoblesvilleInRoute: ConcreteRepairNoblesvilleInRoute,
+  ConcreteRepairWestfieldInRoute: ConcreteRepairWestfieldInRoute,
+  ConcreteRepairZionsvilleInRoute: ConcreteRepairZionsvilleInRoute,
+  ConcreteReplacementRoute: ConcreteReplacementRoute,
   ContactRoute: ContactRoute,
+  CurbRepairRoute: CurbRepairRoute,
   IndustriesRoute: IndustriesRoute,
+  LoadingDockRepairRoute: LoadingDockRepairRoute,
+  ParkingLotConcreteRepairRoute: ParkingLotConcreteRepairRoute,
   ResourcesRoute: ResourcesRoute,
   ServiceAreasRoute: ServiceAreasRoute,
   ServicesRoute: ServicesRoute,
+  SidewalkRepairRoute: SidewalkRepairRoute,
+  SitemapDotxmlRoute: SitemapDotxmlRoute,
+  TripHazardRemovalRoute: TripHazardRemovalRoute,
+  WarehouseFloorRepairRoute: WarehouseFloorRepairRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
