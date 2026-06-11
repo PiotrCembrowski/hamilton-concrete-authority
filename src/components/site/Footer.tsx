@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { Mail, Phone } from "lucide-react";
 import { CITIES, SERVICES, SITE } from "@/data/site";
 
@@ -33,7 +33,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             {SERVICES.slice(0, 6).map((s) => (
               <li key={s.slug}>
-                <Link to={`/${s.slug}`} className="text-white/70 hover:text-accent">
+                <Link href={`/${s.slug}`} className="text-white/70 hover:text-accent">
                   {s.title}
                 </Link>
               </li>
@@ -46,7 +46,7 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm">
             {CITIES.map((c) => (
               <li key={c.slug}>
-                <Link to={`/concrete-repair-${c.slug}-in`} className="text-white/70 hover:text-accent">
+                <Link href={`/concrete-repair-${c.slug}-in`} className="text-white/70 hover:text-accent">
                   {c.name}, IN
                 </Link>
               </li>
@@ -57,10 +57,10 @@ export function Footer() {
         <div>
           <h4 className="font-display text-xs uppercase tracking-[0.18em] text-accent">Company</h4>
           <ul className="mt-4 space-y-2 text-sm">
-            <li><Link to="/industries" className="text-white/70 hover:text-accent">Industries Served</Link></li>
-            <li><Link to="/case-studies" className="text-white/70 hover:text-accent">Case Studies</Link></li>
-            <li><Link to="/resources" className="text-white/70 hover:text-accent">Resource Center</Link></li>
-            <li><Link to="/contact" className="text-white/70 hover:text-accent">Request Assessment</Link></li>
+            <li><Link href="/industries" className="text-white/70 hover:text-accent">Industries Served</Link></li>
+            <li><Link href="/case-studies" className="text-white/70 hover:text-accent">Case Studies</Link></li>
+            <li><Link href="/resources" className="text-white/70 hover:text-accent">Resource Center</Link></li>
+            <li><Link href="/contact" className="text-white/70 hover:text-accent">Request Assessment</Link></li>
           </ul>
         </div>
       </div>

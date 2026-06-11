@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import type { ServiceItem } from "@/data/site";
 import { CITIES, SERVICES, SITE } from "@/data/site";
@@ -37,7 +37,7 @@ export function ServicePageTemplate({ service }: { service: ServiceItem }) {
             <p className="mt-5 max-w-xl text-base text-white/75 md:text-lg">{service.description}</p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
-                to="/contact"
+                href="/contact"
                 className="inline-flex items-center gap-2 rounded-sm bg-accent px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-[color:var(--color-primary)] hover:scale-[1.03]"
               >
                 Request Assessment <ArrowRight className="h-4 w-4" />
@@ -53,7 +53,7 @@ export function ServicePageTemplate({ service }: { service: ServiceItem }) {
           <Reveal>
             <div className="rounded-sm border border-white/10 bg-white/[0.04] p-6">
               <h3 className="font-display text-base font-semibold uppercase tracking-wide text-accent">
-                What's Included
+                What&apos;s Included
               </h3>
               <ul className="mt-4 space-y-2.5">
                 {service.bullets.map((b) => (
@@ -117,7 +117,7 @@ export function ServicePageTemplate({ service }: { service: ServiceItem }) {
             {CITIES.map((c) => (
               <Link
                 key={c.slug}
-                to={`/concrete-repair-${c.slug}-in`}
+                href={`/concrete-repair-${c.slug}-in`}
                 className="rounded-sm border border-border bg-card px-4 py-2.5 font-display text-xs font-semibold uppercase tracking-wider text-foreground hover:border-accent hover:text-accent"
               >
                 {c.name}, IN
@@ -132,7 +132,7 @@ export function ServicePageTemplate({ service }: { service: ServiceItem }) {
                 .map((s) => (
                   <Link
                     key={s.slug}
-                    to={`/${s.slug}`}
+                    href={`/${s.slug}`}
                     className="group rounded-sm border border-border bg-card p-4 hover:border-accent"
                   >
                     <div className="font-display text-sm font-semibold text-foreground group-hover:text-accent">

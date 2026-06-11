@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { ArrowRight, MapPin, Phone, CheckCircle2 } from "lucide-react";
 import { SERVICES, SITE } from "@/data/site";
 import { EstimateForm } from "./EstimateForm";
@@ -34,7 +34,7 @@ export function CityPageTemplate({ city }: { city: string }) {
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link
-                to="/contact"
+                href="/contact"
                 className="inline-flex items-center gap-2 rounded-sm bg-accent px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-[color:var(--color-primary)] hover:scale-[1.03]"
               >
                 Request Assessment <ArrowRight className="h-4 w-4" />
@@ -79,7 +79,7 @@ export function CityPageTemplate({ city }: { city: string }) {
             {SERVICES.map((s) => (
               <Link
                 key={s.slug}
-                to={`/${s.slug}`}
+                href={`/${s.slug}`}
                 className="group rounded-sm border border-border bg-card p-5 hover:-translate-y-1 hover:border-accent transition-all"
               >
                 <div className="font-display text-lg font-semibold text-foreground group-hover:text-accent">

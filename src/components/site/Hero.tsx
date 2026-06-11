@@ -1,4 +1,6 @@
-import { Link } from "@tanstack/react-router";
+"use client";
+
+import Link from "next/link";
 import { motion } from "motion/react";
 import {
   ArrowRight,
@@ -77,7 +79,7 @@ export function Hero() {
             className="mt-8 flex flex-wrap gap-3"
           >
             <Link
-              to="/contact"
+              href="/contact"
               className="group inline-flex items-center gap-2 rounded-sm bg-accent px-6 py-3.5 font-display text-sm font-semibold uppercase tracking-wider text-[color:var(--color-primary)] transition-transform hover:scale-[1.03]"
             >
               Request a Site Assessment
@@ -139,7 +141,7 @@ export function Hero() {
               ))}
             </ul>
             <Link
-              to="/contact"
+              href="/contact"
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-white px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-[color:var(--color-primary)] hover:bg-accent"
             >
               Start Your Assessment <ArrowRight className="h-4 w-4" />

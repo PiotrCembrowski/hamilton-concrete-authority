@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { SERVICES, INDUSTRIES, PROBLEMS, BENEFITS, PROCESS, CITIES, CASE_STUDIES, FAQS, SITE } from "@/data/site";
@@ -41,7 +41,7 @@ export function ServicesGrid() {
           {SERVICES.map((s, i) => (
             <Reveal key={s.slug} delay={i * 0.04}>
               <Link
-                to={`/${s.slug}`}
+                href={`/${s.slug}`}
                 className="group flex h-full flex-col justify-between rounded-sm border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-accent hover:shadow-[0_24px_60px_-30px_rgba(28,43,57,0.45)]"
               >
                 <div>
@@ -202,7 +202,7 @@ export function ServiceArea() {
           {CITIES.map((c, i) => (
             <Reveal key={c.slug} delay={i * 0.04}>
               <Link
-                to={`/concrete-repair-${c.slug}-in`}
+                href={`/concrete-repair-${c.slug}-in`}
                 className="group block rounded-sm border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-accent"
               >
                 <div className="font-display text-xs uppercase tracking-[0.2em] text-muted-foreground">

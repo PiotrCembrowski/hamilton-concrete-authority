@@ -1,4 +1,7 @@
-import { Link } from "@tanstack/react-router";
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 import { SITE } from "@/data/site";
@@ -14,10 +17,12 @@ const NAV = [
 
 export function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
   return (
     <header className="sticky top-0 z-40 border-b border-border/60 bg-[color:var(--color-primary)] text-white backdrop-blur supports-[backdrop-filter]:bg-[color:var(--color-primary)]/95">
       <div className="container-x flex h-16 items-center justify-between gap-4">
-        <Link to="/" className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5">
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-sm bg-accent font-display text-base font-bold tracking-tight text-[color:var(--color-primary)]">
             HC
           </span>
@@ -31,9 +36,10 @@ export function Header() {
           {NAV.map((n) => (
             <Link
               key={n.to}
-              to={n.to}
-              className="text-sm font-medium text-white/80 transition-colors hover:text-accent"
-              activeProps={{ className: "text-accent" }}
+              href={n.to}
+              className={`text-sm font-medium transition-colors hover:text-accent ${
+                pathname === n.to ? "text-accent" : "text-white/80"
+              }`}
             >
               {n.label}
             </Link>
@@ -48,7 +54,7 @@ export function Header() {
             <Phone className="h-4 w-4" /> {SITE.phone}
           </a>
           <Link
-            to="/contact"
+            href="/contact"
             className="hidden rounded-sm bg-accent px-4 py-2 text-sm font-semibold text-[color:var(--color-primary)] transition-transform hover:scale-[1.03] sm:inline-block"
           >
             Request Assessment
@@ -69,7 +75,7 @@ export function Header() {
             {NAV.map((n) => (
               <Link
                 key={n.to}
-                to={n.to}
+                href={n.to}
                 onClick={() => setOpen(false)}
                 className="rounded-sm px-2 py-2.5 text-sm font-medium text-white/85 hover:bg-white/5 hover:text-accent"
               >

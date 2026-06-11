@@ -1,5 +1,6 @@
 @import "tailwindcss" source(none);
 @source "../src";
+@source "../app";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -31,8 +32,8 @@
   --color-ring: var(--ring);
   --color-surface: var(--surface);
   --color-ink: var(--ink);
-  --font-display: "Barlow Condensed", system-ui, sans-serif;
-  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-display: var(--font-display-next), "Barlow Condensed", system-ui, sans-serif;
+  --font-sans: var(--font-sans-next), "DM Sans", system-ui, sans-serif;
 }
 
 :root {

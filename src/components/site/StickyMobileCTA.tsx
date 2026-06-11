@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import Link from "next/link";
 import { Phone, ClipboardList } from "lucide-react";
 import { SITE } from "@/data/site";
 
@@ -13,7 +13,7 @@ export function StickyMobileCTA() {
           <Phone className="h-4 w-4" /> Call Now
         </a>
         <Link
-          to="/contact"
+          href="/contact"
           className="flex flex-1 items-center justify-center gap-2 rounded-sm bg-accent px-3 py-3 text-sm font-semibold text-[color:var(--color-primary)]"
         >
           <ClipboardList className="h-4 w-4" /> Free Assessment
