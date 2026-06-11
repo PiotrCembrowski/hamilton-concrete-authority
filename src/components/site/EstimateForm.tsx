@@ -34,18 +34,19 @@ export function EstimateForm({ compact = false }: { compact?: boolean }) {
   };
 
   return (
-    <form onSubmit={onSubmit} className="grid gap-3">
+    <form onSubmit={onSubmit} className="grid gap-3" data-testid="estimate-form">
       <div className={compact ? "grid gap-3" : "grid gap-3 sm:grid-cols-2"}>
-        <Input name="name" placeholder="Full Name *" required />
-        <Input name="company" placeholder="Company / Property" />
+        <Input name="name" placeholder="Full Name *" required data-testid="estimate-name-input" />
+        <Input name="company" placeholder="Company / Property" data-testid="estimate-company-input" />
       </div>
       <div className={compact ? "grid gap-3" : "grid gap-3 sm:grid-cols-2"}>
-        <Input name="email" type="email" placeholder="Work Email *" required />
-        <Input name="phone" type="tel" placeholder="Phone *" required />
+        <Input name="email" type="email" placeholder="Work Email *" required data-testid="estimate-email-input" />
+        <Input name="phone" type="tel" placeholder="Phone *" required data-testid="estimate-phone-input" />
       </div>
       <select
         name="propertyType"
         defaultValue=""
+        data-testid="estimate-property-type-select"
         className="h-12 rounded-sm border border-border bg-background px-3 text-sm text-foreground focus:border-accent focus:outline-none"
       >
         <option value="" disabled>Property Type</option>
@@ -61,17 +62,19 @@ export function EstimateForm({ compact = false }: { compact?: boolean }) {
       <textarea
         name="message"
         rows={4}
+        data-testid="estimate-message-textarea"
         placeholder="Briefly describe the issue or scope..."
         className="rounded-sm border border-border bg-background p-3 text-sm text-foreground focus:border-accent focus:outline-none"
       />
       <button
         type="submit"
         disabled={submitting}
+        data-testid="estimate-submit-button"
         className="mt-1 inline-flex items-center justify-center rounded-sm bg-accent px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-[color:var(--color-primary)] transition-transform hover:scale-[1.02] disabled:opacity-60"
       >
         {submitting ? "Sending..." : "Request Free Assessment"}
       </button>
-      <p className="text-xs text-muted-foreground">
+      <p className="text-xs text-muted-foreground" data-testid="estimate-form-response-note">
         We respond within one business day. No spam, ever.
       </p>
     </form>

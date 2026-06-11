@@ -32,14 +32,22 @@ export default function ContactPage() {
             A commercial concrete specialist will reach out within one business day to schedule your on-site walkthrough.
           </p>
           <div className="mt-8 space-y-4">
-            <a href={SITE.phoneHref} className="flex items-center gap-3 rounded-sm border border-border bg-card p-4 hover:border-accent">
+            <a
+              href={SITE.phoneHref}
+              data-testid="contact-page-phone-link"
+              className="flex items-center gap-3 rounded-sm border border-border bg-card p-4 hover:border-accent"
+            >
               <Phone className="h-5 w-5 text-accent" />
               <div>
                 <div className="eyebrow text-[10px]">Call Direct</div>
                 <div className="font-display text-lg font-semibold text-foreground">{SITE.phone}</div>
               </div>
             </a>
-            <a href={`mailto:${SITE.email}`} className="flex items-center gap-3 rounded-sm border border-border bg-card p-4 hover:border-accent">
+            <a
+              href={`mailto:${SITE.email}`}
+              data-testid="contact-page-email-link"
+              className="flex items-center gap-3 rounded-sm border border-border bg-card p-4 hover:border-accent"
+            >
               <Mail className="h-5 w-5 text-accent" />
               <div>
                 <div className="eyebrow text-[10px]">Email</div>

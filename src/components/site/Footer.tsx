@@ -19,10 +19,18 @@ export function Footer() {
             Commercial concrete repair specialists serving property managers, HOAs, and commercial owners throughout {SITE.region}.
           </p>
           <div className="mt-6 space-y-2 text-sm">
-            <a href={SITE.phoneHref} className="flex items-center gap-2 text-white hover:text-accent">
+            <a
+              href={SITE.phoneHref}
+              data-testid="footer-phone-link"
+              className="flex items-center gap-2 text-white hover:text-accent"
+            >
               <Phone className="h-4 w-4" /> {SITE.phone}
             </a>
-            <a href={`mailto:${SITE.email}`} className="flex items-center gap-2 text-white/80 hover:text-accent">
+            <a
+              href={`mailto:${SITE.email}`}
+              data-testid="footer-email-link"
+              className="flex items-center gap-2 text-white/80 hover:text-accent"
+            >
               <Mail className="h-4 w-4" /> {SITE.email}
             </a>
           </div>

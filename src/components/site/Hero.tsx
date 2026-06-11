@@ -80,6 +80,7 @@ export function Hero() {
           >
             <Link
               href="/contact"
+              data-testid="hero-request-assessment-link"
               className="group inline-flex items-center gap-2 rounded-sm bg-accent px-6 py-3.5 font-display text-sm font-semibold uppercase tracking-wider text-[color:var(--color-primary)] transition-transform hover:scale-[1.03]"
             >
               Request a Site Assessment
@@ -87,6 +88,7 @@ export function Hero() {
             </Link>
             <a
               href={SITE.phoneHref}
+              data-testid="hero-phone-link"
               className="inline-flex items-center gap-2 rounded-sm border border-white/20 bg-white/0 px-6 py-3.5 font-display text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:bg-white/10"
             >
               <Phone className="h-4 w-4" /> Call {SITE.phone}
@@ -142,6 +144,7 @@ export function Hero() {
             </ul>
             <Link
               href="/contact"
+              data-testid="hero-card-start-assessment-link"
               className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-white px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-[color:var(--color-primary)] hover:bg-accent"
             >
               Start Your Assessment <ArrowRight className="h-4 w-4" />
