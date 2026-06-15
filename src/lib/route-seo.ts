@@ -1,6 +1,9 @@
 import { CITIES, SERVICES } from "@/data/site";
 
-export const BASE_URL = "https://hamiltoncountyconcreterepair.com";
+// Canonical/serving host. The site serves on www, so canonicals, og:url, the
+// sitemap, robots, and schema must all use www to avoid a host-signal mismatch.
+// VERIFY ON LIVE: confirm the apex (non-www) 301-redirects to this host.
+export const BASE_URL = "https://www.hamiltoncountyconcreterepair.com";
 
 type RouteMeta = {
   title: string;

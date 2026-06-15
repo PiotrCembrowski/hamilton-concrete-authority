@@ -1,169 +1,22 @@
 export const SITE = {
   name: "Hamilton County Concrete Repair",
   shortName: "HCCR",
-  phone: "(317) 555-0214",
-  phoneHref: "tel:+13175550214",
+  // REQUIRES HUMAN REVIEW: the previous value, (317) 555-0214, was a placeholder
+  // 555 exchange (a reserved, non-working number). It is replaced with a token so a
+  // real tracking number can be set in one place via find-and-replace of {{REAL_PHONE}}.
+  // For phoneHref, replace with the same number; browsers tolerate formatting in tel:.
+  phone: "{{REAL_PHONE}}",
+  phoneHref: "tel:{{REAL_PHONE}}",
   email: "info@hamiltoncountyconcreterepair.com",
   region: "Hamilton County, Indiana",
   tagline: "Commercial Concrete Repair Specialists",
 };
 
-export type ServiceItem = {
-  slug: string;
-  title: string;
-  short: string;
-  description: string;
-  bullets: string[];
-  metaTitle: string;
-  metaDescription: string;
-};
-
-export const SERVICES: ServiceItem[] = [
-  {
-    slug: "commercial-concrete-repair",
-    title: "Commercial Concrete Repair",
-    short: "Full-service repair for commercial pavement, slabs, and structural concrete.",
-    description:
-      "Comprehensive commercial concrete repair across Hamilton County for property managers, facility directors, and commercial owners. We restore the integrity, safety, and appearance of high-traffic surfaces with minimal business disruption.",
-    bullets: [
-      "Structural slab and pavement repair",
-      "Spalling, scaling, and surface restoration",
-      "Crack injection and joint resealing",
-      "Engineered specifications and reporting",
-    ],
-    metaTitle: "Commercial Concrete Repair in Hamilton County, IN",
-    metaDescription:
-      "Commercial concrete repair for property managers, HOAs, and facilities across Hamilton County, Indiana. Request a free site assessment.",
-  },
-  {
-    slug: "sidewalk-repair",
-    title: "Sidewalk Repair",
-    short: "Eliminate trip hazards and restore safe, ADA-compliant pedestrian access.",
-    description:
-      "Sidewalk repair for retail centers, HOAs, office parks, and municipal properties. We address cracking, settlement, lifting panels, and surface deterioration with code-compliant results.",
-    bullets: [
-      "Panel replacement and grinding",
-      "ADA-compliant transitions",
-      "Settlement and heave repair",
-      "Tripping hazard remediation",
-    ],
-    metaTitle: "Commercial Sidewalk Repair — Hamilton County, IN",
-    metaDescription:
-      "Sidewalk repair, panel replacement, and trip hazard removal for commercial properties throughout Hamilton County, Indiana.",
-  },
-  {
-    slug: "curb-repair",
-    title: "Curb Repair",
-    short: "Curb, gutter, and ribbon repair that holds up to commercial traffic.",
-    description:
-      "Damaged curbs hurt drainage, drivability, and property appearance. We replace and repair concrete curbs, gutters, and parking islands across Hamilton County commercial properties.",
-    bullets: [
-      "Curb and gutter replacement",
-      "Parking lot island repair",
-      "Drainage correction",
-      "ADA ramps and aprons",
-    ],
-    metaTitle: "Commercial Curb Repair — Hamilton County, IN",
-    metaDescription:
-      "Concrete curb and gutter repair for parking lots, retail centers, and commercial properties in Hamilton County, Indiana.",
-  },
-  {
-    slug: "loading-dock-repair",
-    title: "Loading Dock Repair",
-    short: "Heavy-duty dock pit, approach, and apron repair for active facilities.",
-    description:
-      "Loading docks take constant abuse. We rebuild damaged dock pits, approach slabs, leveler embeds, and bumper blocks—engineered to handle continuous freight traffic.",
-    bullets: [
-      "Dock pit and apron reconstruction",
-      "Approach slab replacement",
-      "Bumper block and embed repair",
-      "Scheduled around shipping windows",
-    ],
-    metaTitle: "Loading Dock Concrete Repair — Hamilton County, IN",
-    metaDescription:
-      "Loading dock concrete repair for warehouses and distribution centers in Hamilton County, Indiana. Minimize downtime with scheduled work windows.",
-  },
-  {
-    slug: "concrete-replacement",
-    title: "Concrete Replacement",
-    short: "Full demo and replacement when repair is no longer cost-effective.",
-    description:
-      "When deterioration is too advanced for repair, we handle full removal and replacement of slabs, sidewalks, drives, and pads—engineered for long service life.",
-    bullets: [
-      "Tear-out and disposal",
-      "Engineered base preparation",
-      "Reinforced placement",
-      "Control joint design",
-    ],
-    metaTitle: "Commercial Concrete Replacement — Hamilton County, IN",
-    metaDescription:
-      "Full concrete replacement for commercial properties throughout Hamilton County, Indiana. Engineered, code-compliant installations.",
-  },
-  {
-    slug: "parking-lot-concrete-repair",
-    title: "Parking Lot Concrete Repair",
-    short: "Concrete sections, drive lanes, and entry pads built to last.",
-    description:
-      "We repair concrete sections within commercial parking lots—drive lanes, dumpster pads, entry aprons—improving safety, appearance, and asset value.",
-    bullets: [
-      "Drive lane and apron repair",
-      "Dumpster pad replacement",
-      "Stripe-ready surface finishes",
-      "Phased work to keep lots open",
-    ],
-    metaTitle: "Parking Lot Concrete Repair — Hamilton County, IN",
-    metaDescription:
-      "Concrete repair for commercial parking lots throughout Hamilton County, IN. Phased scheduling to keep your property operational.",
-  },
-  {
-    slug: "trip-hazard-removal",
-    title: "Trip Hazard Removal",
-    short: "Liability-focused remediation of uneven sidewalks and walkways.",
-    description:
-      "Uneven sidewalks are one of the most common slip-and-fall liability sources. We document, grind, and replace hazards to keep your property defensible and ADA-aligned.",
-    bullets: [
-      "Hazard documentation and report",
-      "Precision grinding",
-      "Panel replacement when needed",
-      "Liability-defensible records",
-    ],
-    metaTitle: "Trip Hazard Removal — Hamilton County, IN",
-    metaDescription:
-      "Trip hazard removal for commercial sidewalks across Hamilton County, Indiana. Reduce liability with documented remediation.",
-  },
-  {
-    slug: "warehouse-floor-repair",
-    title: "Warehouse Floor Repair",
-    short: "Joint repair, slab restoration, and surface protection for industrial floors.",
-    description:
-      "Warehouse floors take constant punishment from forklifts and pallet jacks. We repair joints, cracks, and spalled surfaces to protect equipment and keep operations moving.",
-    bullets: [
-      "Joint armoring and re-fill",
-      "Crack and spall repair",
-      "Surface densification",
-      "Forklift-traffic ready cures",
-    ],
-    metaTitle: "Warehouse Floor Repair — Hamilton County, IN",
-    metaDescription:
-      "Industrial warehouse floor repair throughout Hamilton County, IN—joint repair, slab restoration, and surface protection.",
-  },
-  {
-    slug: "ada-compliance-repairs",
-    title: "ADA Compliance Repairs",
-    short: "Bring sidewalks, ramps, and transitions into ADA conformance.",
-    description:
-      "We assess and repair non-compliant ramps, transitions, and walkways—reducing liability exposure and ensuring access for every user.",
-    bullets: [
-      "Ramp slope and landing corrections",
-      "Detectable warning installation",
-      "Cross-slope remediation",
-      "Documented compliance reporting",
-    ],
-    metaTitle: "ADA Compliance Concrete Repairs — Hamilton County, IN",
-    metaDescription:
-      "ADA compliance concrete repairs for commercial properties in Hamilton County, Indiana. Reduce liability and ensure access.",
-  },
-];
+// Service content (types + the full SERVICES array, now with deep per-page content)
+// lives in ./services. Re-exported here so every existing import from "@/data/site"
+// keeps working unchanged.
+export type { RichService as ServiceItem } from "./content-types";
+export { SERVICES } from "./services";
 
 export const INDUSTRIES = [
   { title: "Retail Centers", desc: "Sidewalks, entryways, and parking concrete for active retail." },
