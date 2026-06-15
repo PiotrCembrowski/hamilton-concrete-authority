@@ -1,5 +1,6 @@
 import { CITIES, SERVICES } from "@/data/site";
 import { CITIES_CONTENT } from "@/data/cities";
+import { ARTICLES } from "@/data/resources";
 
 // Canonical/serving host. The site serves on www, so canonicals, og:url, the
 // sitemap, robots, and schema must all use www to avoid a host-signal mismatch.
@@ -76,6 +77,7 @@ export const allSitePaths = [
   "/contact",
   ...SERVICES.map((s) => `/${s.slug}`),
   ...CITIES.map((c) => `/concrete-repair-${c.slug}-in`),
+  ...ARTICLES.map((a) => a.path),
 ];
 
 export function getStaticRouteMeta(pathname: string): RouteMeta | undefined {

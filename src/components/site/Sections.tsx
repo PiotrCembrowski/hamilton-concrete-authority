@@ -237,8 +237,13 @@ export function CaseStudies() {
           {CASE_STUDIES.map((cs, i) => (
             <Reveal key={cs.title} delay={i * 0.04}>
               <article className="flex h-full flex-col rounded-sm border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-accent">
-                <div className="font-display text-xs uppercase tracking-[0.2em] text-accent">
-                  {cs.industry}
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="font-display text-xs uppercase tracking-[0.2em] text-accent">
+                    {cs.industry}
+                  </span>
+                  <span className="rounded-sm border border-dashed border-accent px-1.5 py-0.5 font-display text-[9px] font-bold uppercase tracking-wider text-accent">
+                    Placeholder — replace with real project
+                  </span>
                 </div>
                 <h3 className="mt-3 font-display text-lg font-semibold text-foreground">{cs.title}</h3>
                 <p className="mt-3 text-sm text-muted-foreground">{cs.summary}</p>
