@@ -26,6 +26,10 @@ export default function CaseStudiesPage() {
           <h1 className="mt-3 max-w-3xl font-display text-4xl font-semibold leading-tight md:text-6xl">
             Documented Commercial Concrete Outcomes
           </h1>
+          <p className="mt-5 max-w-2xl text-sm text-white/70">
+            Note for review: the examples below are illustrative placeholders. Replace each with a
+            real, verifiable project before publishing — do not present invented specifics as fact.
+          </p>
         </div>
       </section>
       <CaseStudies />
