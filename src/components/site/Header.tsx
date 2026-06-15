@@ -48,13 +48,15 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a
-            href={SITE.phoneHref}
-            data-testid="header-phone-link"
-            className="hidden items-center gap-2 text-sm font-semibold text-white hover:text-accent md:inline-flex"
-          >
-            <Phone className="h-4 w-4" /> {SITE.phone}
-          </a>
+          {SITE.hasPhone && (
+            <a
+              href={SITE.phoneHref}
+              data-testid="header-phone-link"
+              className="hidden items-center gap-2 text-sm font-semibold text-white hover:text-accent md:inline-flex"
+            >
+              <Phone className="h-4 w-4" /> {SITE.phone}
+            </a>
+          )}
           <Link
             href="/contact"
             data-testid="header-request-assessment-link"
@@ -87,13 +89,15 @@ export function Header() {
                 {n.label}
               </Link>
             ))}
-            <a
-              href={SITE.phoneHref}
-              data-testid="header-mobile-phone-link"
-              className="mt-2 inline-flex items-center gap-2 rounded-sm bg-accent px-3 py-2.5 text-sm font-semibold text-[color:var(--color-primary)]"
-            >
-              <Phone className="h-4 w-4" /> Call {SITE.phone}
-            </a>
+            {SITE.hasPhone && (
+              <a
+                href={SITE.phoneHref}
+                data-testid="header-mobile-phone-link"
+                className="mt-2 inline-flex items-center gap-2 rounded-sm bg-accent px-3 py-2.5 text-sm font-semibold text-[color:var(--color-primary)]"
+              >
+                <Phone className="h-4 w-4" /> Call {SITE.phone}
+              </a>
+            )}
           </div>
         </div>
       )}

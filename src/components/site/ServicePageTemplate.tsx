@@ -55,13 +55,15 @@ export function ServicePageTemplate({ service }: { service: ServiceItem }) {
               >
                 Request Assessment <ArrowRight className="h-4 w-4" />
               </Link>
-              <a
-                href={SITE.phoneHref}
-                data-testid="service-hero-phone-link"
-                className="inline-flex items-center gap-2 rounded-sm border border-white/20 px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-white hover:bg-white/10"
-              >
-                <Phone className="h-4 w-4" /> {SITE.phone}
-              </a>
+              {SITE.hasPhone && (
+                <a
+                  href={SITE.phoneHref}
+                  data-testid="service-hero-phone-link"
+                  className="inline-flex items-center gap-2 rounded-sm border border-white/20 px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-white hover:bg-white/10"
+                >
+                  <Phone className="h-4 w-4" /> {SITE.phone}
+                </a>
+              )}
             </div>
           </div>
           <Reveal>
@@ -155,18 +157,20 @@ export function ServicePageTemplate({ service }: { service: ServiceItem }) {
                 <EstimateForm compact />
               </div>
             </div>
-            <div className="mt-4 rounded-sm border border-border bg-[color:var(--color-surface)] p-5">
-              <p className="font-display text-sm font-semibold uppercase tracking-wide text-foreground">
-                Prefer to talk it through?
-              </p>
-              <a
-                href={SITE.phoneHref}
-                data-testid="service-aside-phone-link"
-                className="mt-2 inline-flex items-center gap-2 font-display text-lg font-semibold text-[color:var(--color-primary)] hover:text-accent"
-              >
-                <Phone className="h-4 w-4 text-accent" /> {SITE.phone}
-              </a>
-            </div>
+            {SITE.hasPhone && (
+              <div className="mt-4 rounded-sm border border-border bg-[color:var(--color-surface)] p-5">
+                <p className="font-display text-sm font-semibold uppercase tracking-wide text-foreground">
+                  Prefer to talk it through?
+                </p>
+                <a
+                  href={SITE.phoneHref}
+                  data-testid="service-aside-phone-link"
+                  className="mt-2 inline-flex items-center gap-2 font-display text-lg font-semibold text-[color:var(--color-primary)] hover:text-accent"
+                >
+                  <Phone className="h-4 w-4 text-accent" /> {SITE.phone}
+                </a>
+              </div>
+            )}
           </aside>
         </div>
       </section>

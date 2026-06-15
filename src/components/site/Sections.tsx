@@ -313,12 +313,14 @@ export function FinalCTA() {
               Tell us about your property and a specialist will reach out within one business day to schedule your on-site assessment.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <div className="rounded-sm border border-white/10 bg-white/[0.04] p-4">
-                <div className="font-display text-xs uppercase tracking-[0.18em] text-accent">Call Direct</div>
-                <a href={SITE.phoneHref} className="mt-1 block font-display text-lg font-semibold text-white hover:text-accent">
-                  {SITE.phone}
-                </a>
-              </div>
+              {SITE.hasPhone && (
+                <div className="rounded-sm border border-white/10 bg-white/[0.04] p-4">
+                  <div className="font-display text-xs uppercase tracking-[0.18em] text-accent">Call Direct</div>
+                  <a href={SITE.phoneHref} className="mt-1 block font-display text-lg font-semibold text-white hover:text-accent">
+                    {SITE.phone}
+                  </a>
+                </div>
+              )}
               <div className="rounded-sm border border-white/10 bg-white/[0.04] p-4">
                 <div className="font-display text-xs uppercase tracking-[0.18em] text-accent">Email</div>
                 <a href={`mailto:${SITE.email}`} className="mt-1 block text-sm font-medium text-white hover:text-accent break-all">

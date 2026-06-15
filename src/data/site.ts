@@ -1,12 +1,17 @@
+// Single source of truth for the tracking phone number.
+// Sourced from NEXT_PUBLIC_PHONE (set per environment). When unset it stays EMPTY
+// and the UI degrades gracefully — no phone link, no broken `tel:`, and never a
+// `{{...}}` token rendered to users. The fake (317) 555-0214 number is gone for good.
+// TODO: set the real tracking number via NEXT_PUBLIC_PHONE before launch.
+// REQUIRES HUMAN REVIEW — real phone number is unknown.
+const PHONE = (process.env.NEXT_PUBLIC_PHONE ?? "").trim();
+
 export const SITE = {
   name: "Hamilton County Concrete Repair",
   shortName: "HCCR",
-  // REQUIRES HUMAN REVIEW: the previous value, (317) 555-0214, was a placeholder
-  // 555 exchange (a reserved, non-working number). It is replaced with a token so a
-  // real tracking number can be set in one place via find-and-replace of {{REAL_PHONE}}.
-  // For phoneHref, replace with the same number; browsers tolerate formatting in tel:.
-  phone: "{{REAL_PHONE}}",
-  phoneHref: "tel:{{REAL_PHONE}}",
+  phone: PHONE, // "" when unknown — components must guard on hasPhone
+  hasPhone: PHONE.length > 0,
+  phoneHref: PHONE ? `tel:${PHONE.replace(/[^\d+]/g, "")}` : "",
   email: "info@hamiltoncountyconcreterepair.com",
   region: "Hamilton County, Indiana",
   tagline: "Commercial Concrete Repair Specialists",
