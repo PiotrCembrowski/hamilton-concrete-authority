@@ -13,7 +13,7 @@ secondary_keywords:
   - "concrete joint sealant replacement Indianapolis"
   - "armored floor joint repair Indiana"
 meta_title: "Concrete Joint Repair & Sealing — Hamilton County"   # 49 chars
-meta_description: "Commercial concrete joint repair & sealing across Hamilton County, IN — control, expansion & construction joints, plus armored floor joints. Request an assessment."   # 163 chars
+meta_description: "Commercial concrete joint repair & sealing in Hamilton County, IN — control, expansion & construction joints plus armored floor joints. Request a quote."   # 152 chars
 h1: "Commercial Concrete Joint Repair & Sealing in Hamilton County, Indiana"
 word_count_estimate: 557
 ---

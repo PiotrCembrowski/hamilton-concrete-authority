@@ -13,7 +13,7 @@ secondary_keywords:
   - "dumpster pad contractor Indianapolis"
   - "concrete dumpster pad Indiana"
 meta_title: "Dumpster Pad Repair & Replacement — Hamilton County"   # 51 chars
-meta_description: "Commercial dumpster pad repair & replacement across Hamilton County, IN — built to survive collection trucks. Stop cracking and ponding. Request an assessment."   # 159 chars
+meta_description: "Commercial dumpster pad repair & replacement in Hamilton County, IN — built to survive collection trucks. Stop cracking & ponding. Request a quote."   # 147 chars
 h1: "Commercial Dumpster Pad Repair & Replacement in Hamilton County, Indiana"
 word_count_estimate: 525
 ---

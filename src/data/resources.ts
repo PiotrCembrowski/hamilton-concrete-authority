@@ -12,7 +12,7 @@ export const ARTICLES: RichArticle[] = [
     title: "Commercial Concrete Repair Cost Guide",
     metaTitle: "Commercial Concrete Repair Cost Guide — HCCR",
     metaDescription:
-      "What drives commercial concrete repair cost — how it's priced, repair vs. replacement economics, and how to read a line-item proposal. A guide for managers.",
+      "What drives commercial concrete repair cost — pricing, repair vs. replacement, and how to read a line-item proposal. A guide for property managers.",
     h1: "Commercial Concrete Repair Cost Guide for Property Managers",
     primaryKeyword: "commercial concrete repair cost",
     secondaryKeywords: [
@@ -391,7 +391,7 @@ export const ARTICLES: RichArticle[] = [
     title: "Warehouse Floor Maintenance Guide",
     metaTitle: "Warehouse Floor Maintenance Guide — HCCR",
     metaDescription:
-      "Protect forklifts, product, and uptime: a practical warehouse concrete floor maintenance plan covering joints, cracks, surface wear, and inspection cadence.",
+      "Protect forklifts, product & uptime: a warehouse concrete floor maintenance plan — joints, cracks, surface wear & inspection cadence.",
     h1: "Warehouse Floor Maintenance: Protecting Forklifts, Product, and Uptime",
     primaryKeyword: "warehouse floor maintenance",
     secondaryKeywords: [

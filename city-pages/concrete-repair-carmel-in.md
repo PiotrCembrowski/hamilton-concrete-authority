@@ -14,7 +14,7 @@ secondary_keywords:
   - "ADA sidewalk repair Carmel Indiana"
   - "loading dock repair Carmel"
 meta_title: "Commercial Concrete Repair in Carmel, IN — HCCR"   # 47 chars
-meta_description: "Commercial concrete repair in Carmel, IN — sidewalks, parking lots, ADA & docks for Meridian-corridor offices and City Center retail. Request an assessment."   # 156 chars
+meta_description: "Commercial concrete repair in Carmel, IN — sidewalks, lots, ADA & docks for Meridian-corridor offices and City Center retail. Request a visit."   # 142 chars
 h1: "Commercial Concrete Repair in Carmel, Indiana"
 word_count_estimate: 724
 ---

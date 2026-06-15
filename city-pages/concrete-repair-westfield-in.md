@@ -14,7 +14,7 @@ secondary_keywords:
   - "Grand Park area concrete repair"
   - "loading dock repair Westfield Indiana"
 meta_title: "Commercial Concrete Repair in Westfield, IN — HCCR"   # 50 chars
-meta_description: "Commercial concrete repair in Westfield, IN — Grand Park hospitality, US-31 retail & new commercial. Parking lots, sidewalks, docks, ADA. Request an assessment."   # 160 chars
+meta_description: "Commercial concrete repair in Westfield, IN — Grand Park hospitality, US-31 retail & new commercial. Lots, sidewalks, ADA. Request a visit."   # 139 chars
 h1: "Commercial Concrete Repair in Westfield, Indiana"
 word_count_estimate: 688
 ---

@@ -14,7 +14,7 @@ secondary_keywords:
   - "HOA concrete repair Noblesville Indiana"
   - "ADA concrete repair Noblesville"
 meta_title: "Commercial Concrete Repair in Noblesville, IN — HCCR"   # 52 chars
-meta_description: "Commercial concrete repair in Noblesville, IN — historic square, SR-37 corridor, Hamilton Town Center & industrial parks. Sidewalks, lots, docks, ADA. Request a visit."   # 167 chars
+meta_description: "Commercial concrete repair in Noblesville, IN — historic square, SR-37 corridor & Hamilton Town Center. Sidewalks, lots, ADA. Request a visit."   # 142 chars
 h1: "Commercial Concrete Repair in Noblesville, Indiana"
 word_count_estimate: 665
 ---

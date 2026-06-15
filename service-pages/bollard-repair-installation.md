@@ -13,7 +13,7 @@ secondary_keywords:
   - "pipe bollard replacement Indianapolis"
   - "concrete bollard footing Indiana"
 meta_title: "Commercial Bollard Repair & Installation — Hamilton Co"   # 54 chars
-meta_description: "Commercial bollard repair & installation across Hamilton County, IN — protect storefronts, equipment & pedestrians with properly footed bollards. Request a quote."   # 162 chars
+meta_description: "Commercial bollard repair & installation in Hamilton County, IN — protect storefronts, equipment & pedestrians with properly footed bollards."   # 141 chars
 h1: "Commercial Bollard Repair & Installation in Hamilton County, Indiana"
 word_count_estimate: 553
 ---

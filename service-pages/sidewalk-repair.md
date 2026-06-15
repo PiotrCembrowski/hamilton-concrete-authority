@@ -13,7 +13,7 @@ secondary_keywords:
   - "HOA sidewalk repair Indiana"
   - "retail center sidewalk repair"
 meta_title: "Commercial Sidewalk Repair — Hamilton County, IN"   # 48 chars
-meta_description: "Commercial sidewalk repair, panel replacement & settlement correction for retail, HOA, and office properties across Hamilton County, IN. Request an assessment."   # 159 chars
+meta_description: "Commercial sidewalk repair, panel replacement & settlement correction for retail, HOA & office properties in Hamilton County, IN. Request an assessment."   # 152 chars
 h1: "Commercial Sidewalk Repair in Hamilton County, Indiana"
 word_count_estimate: 721
 ---

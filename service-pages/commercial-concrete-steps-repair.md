@@ -13,7 +13,7 @@ secondary_keywords:
   - "retail entrance step repair Indiana"
   - "commercial stair repair"
 meta_title: "Commercial Concrete Steps & Stoop Repair — Hamilton"   # 51 chars
-meta_description: "Commercial concrete steps & stoop repair across Hamilton County, IN — restore safe, presentable entrance stairs at retail, office & medical sites. Request a visit."   # 163 chars
+meta_description: "Commercial concrete steps & stoop repair in Hamilton County, IN — safe, presentable entrance stairs for retail, office & medical sites."   # 135 chars
 h1: "Commercial Concrete Steps & Stoop Repair in Hamilton County, Indiana"
 word_count_estimate: 593
 ---

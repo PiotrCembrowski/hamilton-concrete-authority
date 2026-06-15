@@ -15,7 +15,7 @@ secondary_keywords:
   - "retail concrete repair Zionsville Indiana"
   - "commercial concrete contractor Zionsville"
 meta_title: "Commercial Concrete Repair in Zionsville, IN — HCCR"   # 51 chars
-meta_description: "Commercial concrete repair in nearby Zionsville, IN — historic Brick Street village, Michigan Road retail & Creekside corporate park. Sidewalks, lots, ADA. Request a visit."   # 172 chars
+meta_description: "Commercial concrete repair in nearby Zionsville, IN — Brick Street village, Michigan Road retail & Creekside corporate park. Request a visit."   # 141 chars
 h1: "Commercial Concrete Repair in Zionsville, Indiana"
 word_count_estimate: 673
 ---

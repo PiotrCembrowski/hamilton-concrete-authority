@@ -14,7 +14,7 @@ secondary_keywords:
   - "parking lot concrete repair Fishers"
   - "sidewalk repair Fishers IN"
 meta_title: "Commercial Concrete Repair in Fishers, IN — HCCR"   # 48 chars
-meta_description: "Commercial concrete repair in Fishers, IN — loading docks, warehouse floors, parking lots & ADA for the I-69 corridor and Nickel Plate District. Request a quote."   # 161 chars
+meta_description: "Commercial concrete repair in Fishers, IN — docks, warehouse floors, lots & ADA for the I-69 corridor and Nickel Plate District. Request a quote."   # 145 chars
 h1: "Commercial Concrete Repair in Fishers, Indiana"
 word_count_estimate: 661
 ---

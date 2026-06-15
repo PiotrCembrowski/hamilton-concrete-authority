@@ -12,7 +12,7 @@ export const CITIES_CONTENT: RichCity[] = [
     county: "Hamilton County",
     metaTitle: "Commercial Concrete Repair in Carmel, IN — HCCR",
     metaDescription:
-      "Commercial concrete repair in Carmel, IN — sidewalks, parking lots, ADA & docks for Meridian-corridor offices and City Center retail. Request an assessment.",
+      "Commercial concrete repair in Carmel, IN — sidewalks, lots, ADA & docks for Meridian-corridor offices and City Center retail. Request a visit.",
     h1: "Commercial Concrete Repair in Carmel, Indiana",
     primaryKeyword: "commercial concrete repair Carmel IN",
     secondaryKeywords: [
@@ -116,7 +116,7 @@ export const CITIES_CONTENT: RichCity[] = [
     county: "Hamilton County",
     metaTitle: "Commercial Concrete Repair in Fishers, IN — HCCR",
     metaDescription:
-      "Commercial concrete repair in Fishers, IN — loading docks, warehouse floors, parking lots & ADA for the I-69 corridor and Nickel Plate District. Request a quote.",
+      "Commercial concrete repair in Fishers, IN — docks, warehouse floors, lots & ADA for the I-69 corridor and Nickel Plate District. Request a quote.",
     h1: "Commercial Concrete Repair in Fishers, Indiana",
     primaryKeyword: "commercial concrete repair Fishers IN",
     secondaryKeywords: [
@@ -219,7 +219,7 @@ export const CITIES_CONTENT: RichCity[] = [
     county: "Hamilton County",
     metaTitle: "Commercial Concrete Repair in Noblesville, IN — HCCR",
     metaDescription:
-      "Commercial concrete repair in Noblesville, IN — historic square, SR-37 corridor, Hamilton Town Center & industrial parks. Sidewalks, lots, docks, ADA. Request a visit.",
+      "Commercial concrete repair in Noblesville, IN — historic square, SR-37 corridor & Hamilton Town Center. Sidewalks, lots, ADA. Request a visit.",
     h1: "Commercial Concrete Repair in Noblesville, Indiana",
     primaryKeyword: "commercial concrete repair Noblesville IN",
     secondaryKeywords: [
@@ -323,7 +323,7 @@ export const CITIES_CONTENT: RichCity[] = [
     county: "Hamilton County",
     metaTitle: "Commercial Concrete Repair in Westfield, IN — HCCR",
     metaDescription:
-      "Commercial concrete repair in Westfield, IN — Grand Park hospitality, US-31 retail & new commercial. Parking lots, sidewalks, docks, ADA. Request an assessment.",
+      "Commercial concrete repair in Westfield, IN — Grand Park hospitality, US-31 retail & new commercial. Lots, sidewalks, ADA. Request a visit.",
     h1: "Commercial Concrete Repair in Westfield, Indiana",
     primaryKeyword: "commercial concrete repair Westfield IN",
     secondaryKeywords: [
@@ -427,7 +427,7 @@ export const CITIES_CONTENT: RichCity[] = [
     county: "Boone County",
     metaTitle: "Commercial Concrete Repair in Zionsville, IN — HCCR",
     metaDescription:
-      "Commercial concrete repair in nearby Zionsville, IN — historic Brick Street village, Michigan Road retail & Creekside corporate park. Sidewalks, lots, ADA. Request a visit.",
+      "Commercial concrete repair in nearby Zionsville, IN — Brick Street village, Michigan Road retail & Creekside corporate park. Request a visit.",
     h1: "Commercial Concrete Repair in Zionsville, Indiana",
     primaryKeyword: "commercial concrete repair Zionsville IN",
     secondaryKeywords: [

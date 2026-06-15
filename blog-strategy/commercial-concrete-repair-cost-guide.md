@@ -13,7 +13,7 @@ secondary_keywords:
   - "how much does commercial concrete repair cost"
 search_intent: "Commercial investigation (T3): budget-holders scoping cost before requesting quotes. Supports every service page."
 meta_title: "Commercial Concrete Repair Cost Guide — HCCR"   # 44 chars
-meta_description: "What drives commercial concrete repair cost — how it's priced, repair vs. replacement economics, and how to read a line-item proposal. A guide for managers."   # 156 chars
+meta_description: "What drives commercial concrete repair cost — pricing, repair vs. replacement, and how to read a line-item proposal. A guide for property managers."   # 147 chars
 h1: "Commercial Concrete Repair Cost Guide for Property Managers"
 ---
 
@@ -110,7 +110,7 @@ Skip the guesswork — request a free on-site assessment and get a real line-ite
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Commercial Concrete Repair Cost Guide",
-  "description": "What drives commercial concrete repair cost — how it's priced, repair vs. replacement economics, and how to read a line-item proposal. A guide for managers.",
+  "description": "What drives commercial concrete repair cost — pricing, repair vs. replacement, and how to read a line-item proposal. A guide for property managers.",
   "dateModified": "2026-06-15",
   "mainEntityOfPage": "https://www.hamiltoncountyconcreterepair.com/resources/commercial-concrete-repair-cost-guide",
   "author": {

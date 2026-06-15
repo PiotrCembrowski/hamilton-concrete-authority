@@ -13,7 +13,7 @@ secondary_keywords:
   - "forklift floor care"
 search_intent: "Informational (T4): facility managers planning upkeep. Supports /warehouse-floor-repair and /concrete-joint-repair-sealing."
 meta_title: "Warehouse Floor Maintenance Guide — HCCR"   # 40 chars
-meta_description: "Protect forklifts, product, and uptime: a practical warehouse concrete floor maintenance plan covering joints, cracks, surface wear, and inspection cadence."   # 156 chars
+meta_description: "Protect forklifts, product & uptime: a warehouse concrete floor maintenance plan — joints, cracks, surface wear & inspection cadence."   # 133 chars
 h1: "Warehouse Floor Maintenance: Protecting Forklifts, Product, and Uptime"
 ---
 
@@ -79,7 +79,7 @@ Want a floor program instead of fire drills? Request an assessment — we will w
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Warehouse Floor Maintenance Guide",
-  "description": "Protect forklifts, product, and uptime: a practical warehouse concrete floor maintenance plan covering joints, cracks, surface wear, and inspection cadence.",
+  "description": "Protect forklifts, product & uptime: a warehouse concrete floor maintenance plan — joints, cracks, surface wear & inspection cadence.",
   "dateModified": "2026-06-15",
   "mainEntityOfPage": "https://www.hamiltoncountyconcreterepair.com/resources/warehouse-floor-maintenance-guide",
   "author": {

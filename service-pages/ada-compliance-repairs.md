@@ -13,7 +13,7 @@ secondary_keywords:
   - "detectable warning installation Indiana"
   - "ADA cross slope remediation"
 meta_title: "ADA Compliance Concrete Repairs — Hamilton County"   # 49 chars
-meta_description: "ADA compliance concrete repairs across Hamilton County, IN — ramp slopes, cross-slopes, landings & detectable warnings. Reduce liability with documentation."   # 156 chars
+meta_description: "ADA compliance concrete repairs in Hamilton County, IN — ramp slopes, cross-slopes & detectable warnings. Reduce liability with documentation."   # 142 chars
 h1: "ADA Compliance Concrete Repairs in Hamilton County, Indiana"
 word_count_estimate: 598
 ---

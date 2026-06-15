@@ -13,7 +13,7 @@ secondary_keywords:
   - "commercial slab replacement Indiana"
   - "parking lot concrete replacement Hamilton County"
 meta_title: "Commercial Concrete Replacement — Hamilton County"   # 49 chars
-meta_description: "Full-depth commercial concrete replacement across Hamilton County, IN — slabs, sidewalks, drives & pads. Engineered base and jointing. Request an assessment."   # 157 chars
+meta_description: "Full-depth commercial concrete replacement across Hamilton County, IN — slabs, sidewalks, drives & pads. Engineered base & jointing. Request a quote."   # 149 chars
 h1: "Commercial Concrete Replacement in Hamilton County, Indiana"
 word_count_estimate: 641
 ---

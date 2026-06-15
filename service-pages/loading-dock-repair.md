@@ -13,7 +13,7 @@ secondary_keywords:
   - "dock leveler embed repair Indianapolis"
   - "warehouse loading dock repair"
 meta_title: "Loading Dock Concrete Repair — Hamilton County, IN"   # 50 chars
-meta_description: "Loading dock concrete repair for warehouses & distribution centers in Hamilton County, IN. Dock pits, approach slabs, embeds. Minimize downtime — request a quote."   # 162 chars
+meta_description: "Loading dock concrete repair for warehouses & distribution centers in Hamilton County, IN. Dock pits, approach slabs & embeds. Request a quote."   # 143 chars
 h1: "Loading Dock Concrete Repair in Hamilton County, Indiana"
 word_count_estimate: 613
 ---

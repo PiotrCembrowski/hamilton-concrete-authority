@@ -154,7 +154,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "Commercial Sidewalk Repair — Hamilton County, IN",
     metaDescription:
-      "Commercial sidewalk repair, panel replacement & settlement correction for retail, HOA, and office properties across Hamilton County, IN. Request an assessment.",
+      "Commercial sidewalk repair, panel replacement & settlement correction for retail, HOA & office properties in Hamilton County, IN. Request an assessment.",
     h1: "Commercial Sidewalk Repair in Hamilton County, Indiana",
     primaryKeyword: "commercial sidewalk repair Hamilton County IN",
     secondaryKeywords: [
@@ -390,7 +390,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "Loading Dock Concrete Repair — Hamilton County, IN",
     metaDescription:
-      "Loading dock concrete repair for warehouses & distribution centers in Hamilton County, IN. Dock pits, approach slabs, embeds. Minimize downtime — request a quote.",
+      "Loading dock concrete repair for warehouses & distribution centers in Hamilton County, IN. Dock pits, approach slabs & embeds. Request a quote.",
     h1: "Loading Dock Concrete Repair in Hamilton County, Indiana",
     primaryKeyword: "loading dock concrete repair Indiana",
     secondaryKeywords: [
@@ -506,7 +506,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "Commercial Concrete Replacement — Hamilton County",
     metaDescription:
-      "Full-depth commercial concrete replacement across Hamilton County, IN — slabs, sidewalks, drives & pads. Engineered base and jointing. Request an assessment.",
+      "Full-depth commercial concrete replacement across Hamilton County, IN — slabs, sidewalks, drives & pads. Engineered base & jointing. Request a quote.",
     h1: "Commercial Concrete Replacement in Hamilton County, Indiana",
     primaryKeyword: "commercial concrete replacement Hamilton County",
     secondaryKeywords: [
@@ -963,7 +963,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "ADA Compliance Concrete Repairs — Hamilton County",
     metaDescription:
-      "ADA compliance concrete repairs across Hamilton County, IN — ramp slopes, cross-slopes, landings & detectable warnings. Reduce liability with documentation.",
+      "ADA compliance concrete repairs in Hamilton County, IN — ramp slopes, cross-slopes & detectable warnings. Reduce liability with documentation.",
     h1: "ADA Compliance Concrete Repairs in Hamilton County, Indiana",
     primaryKeyword: "ADA concrete compliance repair",
     secondaryKeywords: [
@@ -1192,7 +1192,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "Concrete Joint Repair & Sealing — Hamilton County",
     metaDescription:
-      "Commercial concrete joint repair & sealing across Hamilton County, IN — control, expansion & construction joints, plus armored floor joints. Request an assessment.",
+      "Commercial concrete joint repair & sealing in Hamilton County, IN — control, expansion & construction joints plus armored floor joints. Request a quote.",
     h1: "Commercial Concrete Joint Repair & Sealing in Hamilton County, Indiana",
     primaryKeyword: "commercial concrete joint repair and sealing",
     secondaryKeywords: [
@@ -1306,7 +1306,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "Dumpster Pad Repair & Replacement — Hamilton County",
     metaDescription:
-      "Commercial dumpster pad repair & replacement across Hamilton County, IN — built to survive collection trucks. Stop cracking and ponding. Request an assessment.",
+      "Commercial dumpster pad repair & replacement in Hamilton County, IN — built to survive collection trucks. Stop cracking & ponding. Request a quote.",
     h1: "Commercial Dumpster Pad Repair & Replacement in Hamilton County, Indiana",
     primaryKeyword: "dumpster pad repair and replacement",
     secondaryKeywords: [
@@ -1648,7 +1648,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "Commercial Bollard Repair & Installation — Hamilton Co",
     metaDescription:
-      "Commercial bollard repair & installation across Hamilton County, IN — protect storefronts, equipment & pedestrians with properly footed bollards. Request a quote.",
+      "Commercial bollard repair & installation in Hamilton County, IN — protect storefronts, equipment & pedestrians with properly footed bollards.",
     h1: "Commercial Bollard Repair & Installation in Hamilton County, Indiana",
     primaryKeyword: "commercial bollard repair and installation",
     secondaryKeywords: [
@@ -1878,7 +1878,7 @@ export const SERVICES: RichService[] = [
     ],
     metaTitle: "Commercial Concrete Steps & Stoop Repair — Hamilton",
     metaDescription:
-      "Commercial concrete steps & stoop repair across Hamilton County, IN — restore safe, presentable entrance stairs at retail, office & medical sites. Request a visit.",
+      "Commercial concrete steps & stoop repair in Hamilton County, IN — safe, presentable entrance stairs for retail, office & medical sites.",
     h1: "Commercial Concrete Steps & Stoop Repair in Hamilton County, Indiana",
     primaryKeyword: "commercial concrete steps and stoop repair",
     secondaryKeywords: [
