@@ -1,4 +1,5 @@
 import { CITIES, SERVICES } from "@/data/site";
+import { CITIES_CONTENT } from "@/data/cities";
 
 // Canonical/serving host. The site serves on www, so canonicals, og:url, the
 // sitemap, robots, and schema must all use www to avoid a host-signal mismatch.
@@ -56,38 +57,14 @@ const staticRouteMeta: Record<string, RouteMeta> = {
   },
 };
 
-const cityMetaBySlug: Record<string, RouteMeta> = {
-  "concrete-repair-westfield-in": {
-    title: "Commercial Concrete Repair in Westfield, IN — HCCR",
-    description:
-      "Commercial concrete repair in Westfield, Indiana. Sidewalks, parking lots, loading docks, ADA, and warehouse floors for Westfield property managers.",
-    canonical: "/concrete-repair-westfield-in",
-  },
-  "concrete-repair-carmel-in": {
-    title: "Commercial Concrete Repair in Carmel, IN — HCCR",
-    description:
-      "Commercial concrete repair in Carmel, Indiana. Sidewalks, parking lots, loading docks, ADA, and warehouse floors for Carmel property managers.",
-    canonical: "/concrete-repair-carmel-in",
-  },
-  "concrete-repair-fishers-in": {
-    title: "Commercial Concrete Repair in Fishers, IN — HCCR",
-    description:
-      "Commercial concrete repair in Fishers, Indiana. Sidewalks, parking lots, loading docks, ADA, and warehouse floors for Fishers property managers.",
-    canonical: "/concrete-repair-fishers-in",
-  },
-  "concrete-repair-noblesville-in": {
-    title: "Commercial Concrete Repair in Noblesville, IN — HCCR",
-    description:
-      "Commercial concrete repair in Noblesville, Indiana. Sidewalks, parking lots, loading docks, ADA, and warehouse floors for Noblesville property managers.",
-    canonical: "/concrete-repair-noblesville-in",
-  },
-  "concrete-repair-zionsville-in": {
-    title: "Commercial Concrete Repair in Zionsville, IN — HCCR",
-    description:
-      "Commercial concrete repair in Zionsville, Indiana. Sidewalks, parking lots, loading docks, ADA, and warehouse floors for Zionsville property managers.",
-    canonical: "/concrete-repair-zionsville-in",
-  },
-};
+// Derived from the rich city content (src/data/cities.ts) so metadata always
+// matches the page. Keyed by full URL slug, e.g. "concrete-repair-carmel-in".
+const cityMetaBySlug: Record<string, RouteMeta> = Object.fromEntries(
+  CITIES_CONTENT.map((c) => [
+    `concrete-repair-${c.slug}-in`,
+    { title: c.metaTitle, description: c.metaDescription, canonical: c.path },
+  ]),
+);
 
 export const allSitePaths = [
   "/",

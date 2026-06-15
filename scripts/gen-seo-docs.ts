@@ -7,6 +7,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { SERVICES } from "../src/data/services";
 import { CITIES } from "../src/data/site";
+import { CITIES_CONTENT } from "../src/data/cities";
 import type {
   ContentSection,
   FAQ,
@@ -171,3 +172,80 @@ ${jsonLd(breadcrumbSchema([
 }
 
 console.log(`✓ service-pages: ${SERVICES.length} files (~${Math.round(serviceWords / SERVICES.length)} avg words/page)`);
+
+// ── City pages ───────────────────────────────────────────────────────────────
+let cityWords = 0;
+for (const c of CITIES_CONTENT) {
+  const body = sectionsMd(c.sections);
+  const words = wordCount(
+    c.intro + " " + c.sections.flatMap((x) => x.paragraphs.concat(x.bullets ?? [])).join(" ") + " " + c.faqs.flatMap((f) => [f.q, f.a]).join(" "),
+  );
+  cityWords += words;
+  const md = `---
+title: "Commercial Concrete Repair in ${c.name}, IN"
+page_type: city
+slug: "concrete-repair-${c.slug}-in"
+url: "${BASE_URL}${c.path}"
+county: "${c.county}"${c.nearby ? "\nnearby: true   # Boone County — framed as nearby, NOT part of Hamilton County" : ""}
+status: "Rewrite of thin/doorway city page — now fully localized"
+batch: 3
+last_updated: "2026-06-15"
+primary_keyword: "${c.primaryKeyword}"
+secondary_keywords:
+${c.secondaryKeywords.map((k) => `  - "${k}"`).join("\n")}
+meta_title: "${c.metaTitle}"   # ${c.metaTitle.length} chars
+meta_description: "${c.metaDescription}"   # ${c.metaDescription.length} chars
+h1: "${c.h1}"
+word_count_estimate: ${words}
+---
+
+# ${c.h1}
+
+> Hero intro: ${c.intro}
+
+**${c.name} commercial corridors covered:**
+${c.localContext.map((l) => `- ${l}`).join("\n")}
+
+${body}
+
+## Project example
+
+> **[PLACEHOLDER — REPLACE WITH REAL PROJECT]** — invented illustration; do not publish as fact until replaced with a real, verifiable ${c.name} project.
+
+**${c.project.title}**
+
+${c.project.summary}
+
+- ${c.project.metrics.join("\n- ")}
+
+## Conversion CTA (unique to ${c.name})
+
+Request a free on-site assessment in ${c.name} — a specialist walks the property and delivers a line-item proposal within one business day. Call \`{{REAL_PHONE}}\` (REQUIRES HUMAN REVIEW — real number).
+
+## FAQ (unique to ${c.name})
+
+${faqMd(c.faqs)}
+
+## Internal links (recommended, contextual)
+
+${linksMd(c.internalLinks)}
+
+## Image placements (alt-text guidance)
+
+${imagesMd(c.images)}
+
+## JSON-LD — FAQPage (unique)
+
+${jsonLd(faqSchema(c.faqs, c.path))}
+
+## JSON-LD — BreadcrumbList
+
+${jsonLd(breadcrumbSchema([
+    { name: "Home", path: "/" },
+    { name: "Service Areas", path: "/service-areas" },
+    { name: c.name, path: c.path },
+  ]))}
+`;
+  write("city-pages", `concrete-repair-${c.slug}-in.md`, md);
+}
+console.log(`✓ city-pages: ${CITIES_CONTENT.length} files (~${Math.round(cityWords / CITIES_CONTENT.length)} avg words/page)`);

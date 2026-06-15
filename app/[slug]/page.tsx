@@ -4,6 +4,7 @@ import { CityPageTemplate } from "@/components/site/CityPageTemplate";
 import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { FinalCTA } from "@/components/site/Sections";
 import { SERVICES } from "@/data/site";
+import { CITIES_CONTENT, getCityContent } from "@/data/cities";
 import {
   BASE_URL,
   getCityMetaBySlug,
@@ -53,11 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 export async function generateStaticParams() {
   return [
     ...SERVICES.map((service) => ({ slug: service.slug })),
-    { slug: "concrete-repair-westfield-in" },
-    { slug: "concrete-repair-carmel-in" },
-    { slug: "concrete-repair-fishers-in" },
-    { slug: "concrete-repair-noblesville-in" },
-    { slug: "concrete-repair-zionsville-in" },
+    ...CITIES_CONTENT.map((c) => ({ slug: `concrete-repair-${c.slug}-in` })),
   ];
 }
 
@@ -77,12 +74,13 @@ export default async function SlugPage({ params }: PageProps) {
   }
 
   if (isCitySlug(slug)) {
-    const city = slug.replace("concrete-repair-", "").replace("-in", "");
-    const cityName = city.charAt(0).toUpperCase() + city.slice(1);
+    const citySlug = slug.replace("concrete-repair-", "").replace("-in", "");
+    const city = getCityContent(citySlug);
+    if (!city) notFound();
 
     return (
       <>
-        <CityPageTemplate city={cityName} />
+        <CityPageTemplate city={city} />
         <FinalCTA />
       </>
     );
