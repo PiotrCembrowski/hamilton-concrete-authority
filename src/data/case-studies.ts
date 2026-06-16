@@ -14,7 +14,7 @@ export const CASE_STUDIES_CONTENT: RichCaseStudy[] = [
     serviceSlug: "sidewalk-repair",
     metaTitle: "Case Study: Retail Sidewalk Replacement, Fishers IN",
     metaDescription:
-      "How a multi-tenant Fishers retail center replaced failing storefront sidewalks in nightly work windows with zero tenant downtime. (Illustrative case study.)",
+      "How a multi-tenant Fishers retail center replaced failing storefront sidewalks in nightly windows with zero tenant downtime. (Illustrative.)",
     h1: "Retail Center Sidewalk Replacement in Fishers, Indiana",
     summary:
       "Failing storefront sidewalks replaced across a multi-tenant Fishers retail center — in nightly work windows, with no tenant disruption.",
@@ -69,7 +69,7 @@ export const CASE_STUDIES_CONTENT: RichCaseStudy[] = [
     serviceSlug: "loading-dock-repair",
     metaTitle: "Case Study: Loading Dock Restoration, Fishers IN",
     metaDescription:
-      "How a Fishers I-69 distribution center rebuilt deteriorated dock pits and approach slabs while keeping inbound freight on schedule. (Illustrative case study.)",
+      "How a Fishers I-69 distribution center rebuilt failing dock pits and approach slabs while keeping freight on schedule. (Illustrative.)",
     h1: "Warehouse Loading Dock Restoration in Fishers, Indiana",
     summary:
       "Deteriorated dock pits and approach slabs rebuilt at an I-69 corridor distribution center — phased to preserve the shipping schedule.",
@@ -179,7 +179,7 @@ export const CASE_STUDIES_CONTENT: RichCaseStudy[] = [
     serviceSlug: "trip-hazard-removal",
     metaTitle: "Case Study: Office Trip Hazard Removal, Carmel IN",
     metaDescription:
-      "How a Class-A Carmel office park cleared dozens of documented sidewalk trip hazards across its entry network in a single weekend. (Illustrative case study.)",
+      "How a Class-A Carmel office park cleared dozens of documented sidewalk trip hazards across its entry network in one weekend. (Illustrative.)",
     h1: "Office Park Trip Hazard Removal in Carmel, Indiana",
     summary:
       "Dozens of documented trip hazards cleared across a Class-A Carmel office park's entry network — in a single weekend, no weekday disruption.",
@@ -234,7 +234,7 @@ export const CASE_STUDIES_CONTENT: RichCaseStudy[] = [
     serviceSlug: "ada-compliance-repairs",
     metaTitle: "Case Study: Medical ADA Concrete Upgrades, Carmel",
     metaDescription:
-      "How a Carmel medical facility brought patient-entry walkways into ADA conformance — slopes, landings, and detectable warnings — while staying open. (Illustrative.)",
+      "How a Carmel medical facility brought patient entries into ADA conformance — slopes, landings, detectable warnings — while staying open. (Illustrative.)",
     h1: "Medical Facility ADA Concrete Upgrades in Carmel, Indiana",
     summary:
       "Patient-entry walkways brought into ADA conformance at a Carmel medical facility — corrected slopes, landings, and detectable warnings, open throughout.",
