@@ -120,10 +120,6 @@ Usually, yes. The truck's front axle and staging position bear just outside the 
     },
     {
       "@type": "City",
-      "name": "Westfield, IN"
-    },
-    {
-      "@type": "City",
       "name": "Carmel, IN"
     },
     {
@@ -133,6 +129,22 @@ Usually, yes. The truck's front axle and staging position bear just outside the 
     {
       "@type": "City",
       "name": "Noblesville, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Westfield, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Cicero, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Sheridan, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Arcadia, IN"
     },
     {
       "@type": "City",

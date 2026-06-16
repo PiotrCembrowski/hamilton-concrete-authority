@@ -63,10 +63,14 @@ export const PROCESS = [
 ];
 
 export const CITIES = [
-  { slug: "westfield", name: "Westfield" },
   { slug: "carmel", name: "Carmel" },
   { slug: "fishers", name: "Fishers" },
   { slug: "noblesville", name: "Noblesville" },
+  { slug: "westfield", name: "Westfield" },
+  { slug: "cicero", name: "Cicero" },
+  { slug: "sheridan", name: "Sheridan" },
+  { slug: "arcadia", name: "Arcadia" },
+  // Boone County — served as a nearby market, not claimed as part of Hamilton County.
   { slug: "zionsville", name: "Zionsville" },
 ];
 

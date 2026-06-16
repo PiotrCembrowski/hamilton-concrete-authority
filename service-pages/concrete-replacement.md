@@ -122,10 +122,6 @@ Yes, and we often recommend it. We can prioritize the sections that are safety o
     },
     {
       "@type": "City",
-      "name": "Westfield, IN"
-    },
-    {
-      "@type": "City",
       "name": "Carmel, IN"
     },
     {
@@ -135,6 +131,22 @@ Yes, and we often recommend it. We can prioritize the sections that are safety o
     {
       "@type": "City",
       "name": "Noblesville, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Westfield, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Cicero, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Sheridan, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Arcadia, IN"
     },
     {
       "@type": "City",

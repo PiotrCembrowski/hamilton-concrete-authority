@@ -120,10 +120,6 @@ We can stabilize and seal it, but only as part of addressing why it is moving â€
     },
     {
       "@type": "City",
-      "name": "Westfield, IN"
-    },
-    {
-      "@type": "City",
       "name": "Carmel, IN"
     },
     {
@@ -133,6 +129,22 @@ We can stabilize and seal it, but only as part of addressing why it is moving â€
     {
       "@type": "City",
       "name": "Noblesville, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Westfield, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Cicero, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Sheridan, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Arcadia, IN"
     },
     {
       "@type": "City",

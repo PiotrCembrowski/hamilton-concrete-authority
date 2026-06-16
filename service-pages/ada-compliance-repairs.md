@@ -125,10 +125,6 @@ We correct concrete elements to the applicable accessibility dimensions and docu
     },
     {
       "@type": "City",
-      "name": "Westfield, IN"
-    },
-    {
-      "@type": "City",
       "name": "Carmel, IN"
     },
     {
@@ -138,6 +134,22 @@ We correct concrete elements to the applicable accessibility dimensions and docu
     {
       "@type": "City",
       "name": "Noblesville, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Westfield, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Cicero, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Sheridan, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Arcadia, IN"
     },
     {
       "@type": "City",

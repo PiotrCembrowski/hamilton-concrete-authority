@@ -122,10 +122,6 @@ That is a routine scope for us. Island curbs take constant abuse from vehicles a
     },
     {
       "@type": "City",
-      "name": "Westfield, IN"
-    },
-    {
-      "@type": "City",
       "name": "Carmel, IN"
     },
     {
@@ -135,6 +131,22 @@ That is a routine scope for us. Island curbs take constant abuse from vehicles a
     {
       "@type": "City",
       "name": "Noblesville, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Westfield, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Cicero, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Sheridan, IN"
+    },
+    {
+      "@type": "City",
+      "name": "Arcadia, IN"
     },
     {
       "@type": "City",

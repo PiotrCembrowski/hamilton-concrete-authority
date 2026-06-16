@@ -208,7 +208,7 @@ export function ServiceArea() {
             intro="On-site assessments and repair crews dispatched throughout Hamilton County, Indiana."
           />
         </Reveal>
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {CITIES.map((c, i) => (
             <Reveal key={c.slug} delay={i * 0.04}>
               <Link
