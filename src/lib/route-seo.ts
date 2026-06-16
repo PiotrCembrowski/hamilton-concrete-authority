@@ -1,6 +1,7 @@
 import { CITIES, SERVICES } from "@/data/site";
 import { CITIES_CONTENT } from "@/data/cities";
 import { ARTICLES } from "@/data/resources";
+import { INDUSTRY_PAGES } from "@/data/industries";
 
 // Canonical/serving host. The site serves on www, so canonicals, og:url, the
 // sitemap, robots, and schema must all use www to avoid a host-signal mismatch.
@@ -67,6 +68,22 @@ const cityMetaBySlug: Record<string, RouteMeta> = Object.fromEntries(
   ]),
 );
 
+// Property-type ("industry") pages, keyed by top-level slug.
+const industryMetaBySlug: Record<string, RouteMeta> = Object.fromEntries(
+  INDUSTRY_PAGES.map((i) => [
+    i.slug,
+    { title: i.metaTitle, description: i.metaDescription, canonical: `/${i.slug}` },
+  ]),
+);
+
+export function getIndustryMetaBySlug(slug: string): RouteMeta | undefined {
+  return industryMetaBySlug[slug];
+}
+
+export function isIndustrySlug(slug: string): boolean {
+  return slug in industryMetaBySlug;
+}
+
 export const allSitePaths = [
   "/",
   "/services",
@@ -78,6 +95,7 @@ export const allSitePaths = [
   ...SERVICES.map((s) => `/${s.slug}`),
   ...CITIES.map((c) => `/concrete-repair-${c.slug}-in`),
   ...ARTICLES.map((a) => a.path),
+  ...INDUSTRY_PAGES.map((i) => `/${i.slug}`),
 ];
 
 export function getStaticRouteMeta(pathname: string): RouteMeta | undefined {

@@ -115,3 +115,29 @@ export type RichArticle = {
   /** ISO date for article schema / front-matter. */
   updated: string;
 };
+
+/**
+ * Property-type ("industry") page — frames concrete repair around an asset class
+ * (HOA, retail center, medical, office park, multifamily) and links DOWN to the
+ * service pages. Targets "{property type} concrete repair {area}" intent without
+ * competing with any service page's primary keyword.
+ */
+export type RichIndustry = {
+  slug: string; // top-level slug, e.g. "hoa-concrete-repair"
+  title: string;
+  /** The asset class in prose, e.g. "HOA & COA communities". */
+  industryName: string;
+  short: string;
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  primaryKeyword: string;
+  secondaryKeywords: string[];
+  intro: string;
+  sections: ContentSection[];
+  faqs: FAQ[];
+  internalLinks: InternalLink[];
+  /** Service slugs most relevant to this asset class. */
+  relatedServices: string[];
+  images: ImageSlot[];
+};

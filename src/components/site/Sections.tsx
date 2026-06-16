@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
-import { SERVICES, INDUSTRIES, PROBLEMS, BENEFITS, PROCESS, CITIES, CASE_STUDIES, FAQS, SITE } from "@/data/site";
+import { SERVICES, PROBLEMS, BENEFITS, PROCESS, CITIES, CASE_STUDIES, FAQS, SITE } from "@/data/site";
+import { INDUSTRY_PAGES } from "@/data/industries";
 import { EstimateForm } from "./EstimateForm";
 
 export function SectionHeader({
@@ -76,14 +77,22 @@ export function IndustriesGrid() {
             intro="From multi-tenant retail to distribution centers, we tailor scope, scheduling, and reporting to your asset class."
           />
         </Reveal>
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {INDUSTRIES.map((ind, i) => (
-            <Reveal key={ind.title} delay={i * 0.03}>
-              <div className="group h-full rounded-sm border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-accent">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {INDUSTRY_PAGES.map((ind, i) => (
+            <Reveal key={ind.slug} delay={i * 0.03}>
+              <Link
+                href={`/${ind.slug}`}
+                className="group block h-full rounded-sm border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-accent"
+              >
                 <div className="h-1 w-10 bg-accent" />
-                <h3 className="mt-4 font-display text-lg font-semibold text-foreground">{ind.title}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{ind.desc}</p>
-              </div>
+                <h3 className="mt-4 font-display text-lg font-semibold text-foreground group-hover:text-accent">
+                  {ind.title}
+                </h3>
+                <p className="mt-2 text-sm text-muted-foreground">{ind.short}</p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-[color:var(--color-primary)] group-hover:text-accent">
+                  Learn more <ArrowUpRight className="h-3.5 w-3.5" />
+                </span>
+              </Link>
             </Reveal>
           ))}
         </div>
