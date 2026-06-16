@@ -141,3 +141,28 @@ export type RichIndustry = {
   relatedServices: string[];
   images: ImageSlot[];
 };
+
+/**
+ * Individual case-study page. ALL specifics are invented until real projects are
+ * supplied, so every field is treated as placeholder and the page renders a visible
+ * "[PLACEHOLDER — REPLACE WITH REAL PROJECT]" banner. Do not present as fact.
+ */
+export type RichCaseStudy = {
+  slug: string;
+  path: string; // "/case-studies/{slug}"
+  title: string;
+  industry: string; // asset class label
+  cityName: string; // tie to a real local market
+  serviceSlug: string; // primary service demonstrated
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  /** One-line teaser for index cards. */
+  summary: string;
+  sections: ContentSection[]; // challenge / scope / approach / outcome
+  /** Invented metrics — rendered with the placeholder tag. */
+  metrics: string[];
+  internalLinks: InternalLink[];
+  images: ImageSlot[];
+  updated: string;
+};
