@@ -179,6 +179,34 @@ export const ARTICLES: RichArticle[] = [
           "The trap is comparing only the upfront numbers. A repair is cheaper today, but if it will fail in two seasons because the base is gone, its true cost is the repair plus the replacement you will still have to do. The right comparison is cost over the expected service life: a $1 repair that lasts a decade beats a series of cheaper patches that do not, and a replacement that prevents annual repairs can pay for itself across a few budget cycles. A good contractor will show you that math rather than just the sticker.",
         ],
       },
+      {
+        h2: "The costs that never show up on the estimate",
+        paragraphs: [
+          "The repair-or-replace comparison is usually run on the upfront bid alone, which quietly favors whichever option is cheaper today and ignores the costs that land later. A repair that fails in two seasons carries the cost of the repair, the cost of the eventual replacement, and everything in between — the repeated mobilizations, the recurring tenant disruption, and the liability of a known defect that keeps reopening. A replacement that ends an annual repair cycle eliminates all of it.",
+          "For a property manager, the honest comparison includes downtime and disruption (how many times will tenants be affected?), the administrative cost of managing repeated small projects, and the exposure of a surface that keeps degrading between fixes. None of that appears on a line-item bid, but it is real money and real risk — and it is often what tips a borderline call toward replacing once instead of patching forever.",
+        ],
+      },
+      {
+        h2: "Phasing dissolves the all-or-nothing trap",
+        paragraphs: [
+          "Much of the anxiety around this decision comes from treating it as a single, total choice for a whole property. It rarely has to be. A parking field, a sidewalk network, or a dock can be triaged: replace the sections that have genuinely failed, repair the ones still serviceable, and schedule the borderline areas into a later budget year while monitoring them.",
+          "That phased approach lets a board or owner fund the safety- and liability-critical work now without committing to a capital number that isn't justified yet, and it spreads disruption out over time. We scope every property this way — graded by severity — so the decision becomes a prioritized plan rather than one intimidating yes-or-no.",
+        ],
+      },
+      {
+        h2: "Give the decision-maker something they can approve",
+        paragraphs: [
+          "Whoever signs off — a board, an owner, a regional director — needs more than a recommendation; they need the reasoning in a form they can defend. A sound proposal shows the condition of each area, the base assessment behind the call, the option chosen and why, and the cost of the alternative. That lets the approver see that replacement was recommended because the base is gone, not because it's the bigger invoice — or that repair was chosen because the slab is still sound.",
+          "That documentation also becomes part of the asset's history, feeding the next reserve study and making the following year's decision faster and better-informed.",
+        ],
+      },
+      {
+        h2: "A quick gut-check before you decide",
+        paragraphs: [
+          "When a contractor hands you a repair-or-replace recommendation, a few questions separate a sound call from a lazy one. Is the base stable, and how do they know — did they look below the surface or only at it? How widespread is the failure, really: one area or the whole slab? How many times has this exact spot been repaired before? And what does the alternative cost over the expected service life, not just today? A recommendation that answers those clearly, and is willing to repair where it can and phase where it should, has earned your trust. One that jumps to 'replace everything' with no breakdown has not.",
+          "You don't need to be a concrete expert to ask them — you just need the contractor to show their work. The right partner welcomes the questions, because the honest answer is usually what keeps you as a client across the next several budget cycles.",
+        ],
+      },
     ],
     faqs: [
       {
@@ -261,6 +289,34 @@ export const ARTICLES: RichArticle[] = [
         h2: "How settlement turns compliant concrete non-compliant",
         paragraphs: [
           "A property built to standard does not necessarily stay compliant. Central Indiana's freeze-thaw and clay soils move concrete, and a ramp or walk that met its slopes when poured can drift out of tolerance as it settles or heaves. That is why accessibility should be part of routine concrete inspection, not a one-time sign-off — and why correcting a slope problem properly means addressing the base so it does not move back out of conformance.",
+        ],
+      },
+      {
+        h2: "Accessible parking and access aisles count too",
+        paragraphs: [
+          "The accessible route doesn't begin at the sidewalk — it begins at the accessible parking spaces and the striped access aisles beside them, and the concrete there is held to the same slope standards. Accessible spaces and aisles must stay within tight slope limits in every direction, so a space that has settled or heaved is a compliance problem before anyone reaches the curb ramp. The number of accessible spaces required scales with the lot size, and van-accessible spaces need wider aisles.",
+          "Because these areas take vehicle load and weather like the rest of the lot, they settle and crack — and when they do, the slope drifts out of tolerance. Accessible parking and access-aisle concrete is part of the route we measure and correct, not an afterthought.",
+        ],
+      },
+      {
+        h2: "How a compliant property drifts out of compliance",
+        paragraphs: [
+          "Few properties set out to be non-compliant; they drift there. Concrete poured to standard settles over central Indiana's clay until a cross-slope exceeds the limit. A curb ramp's detectable warnings wear flat under traffic and snowplows. A landing that was adequate gets a thick overlay that shrinks it below the minimum. A repair done without accessibility in mind reintroduces a lip at a transition. Each change is small, and each can turn a compliant route into a citable one.",
+          "That gradual drift is exactly why accessibility belongs in routine concrete inspection. A property checked once at construction and never again will not stay compliant through a decade of Indiana winters.",
+        ],
+      },
+      {
+        h2: "What an accessibility-aware repair actually includes",
+        paragraphs: [
+          "Correcting an access deficiency is more than pouring concrete to a number. It means measuring the existing running slope, cross-slope, landing dimensions, and offsets; identifying precisely what is out of range; correcting the concrete to bring those dimensions back within tolerance; and addressing the base where settlement caused the drift, so the correction holds rather than moving back out next season. It also means installing or replacing detectable warnings to spec, with proper contrast, where curb ramps require them.",
+          "Finally, it means documenting the verified post-repair dimensions — the record that demonstrates the corrections were made to standard on a date certain, which is the evidence a property wants if an access complaint arrives. A full legal compliance determination remains the role of your counsel or a certified accessibility specialist.",
+        ],
+      },
+      {
+        h2: "Why documentation is the quiet hero of access compliance",
+        paragraphs: [
+          "For accessibility, the record is as valuable as the repair. A property that can show, with dated measurements and photos, that it identified an access deficiency and corrected the concrete to the applicable dimensions is in a fundamentally different position than one that can't — even when the physical condition is identical. Good-faith, documented remediation is what demonstrates a property is managing accessibility actively rather than ignoring it.",
+          "That matters because access deficiencies tend to be measurable and visible, which makes them easy to allege and hard to wave away after the fact. The properties that handle this well fold accessibility into routine concrete inspection, correct what drifts out of tolerance, and keep the verified records — so if a complaint ever arrives, the answer is a dated file, not a scramble. None of this substitutes for a legal compliance review by qualified counsel or an accessibility specialist; it is the concrete-side discipline that supports it.",
         ],
       },
     ],
@@ -352,6 +408,39 @@ export const ARTICLES: RichArticle[] = [
           "Concrete will crack; jointing decides where. Control joints cut to the right depth and spacing direct that cracking along planned lines. When joints are missing, too shallow, or spaced wrong — the hallmarks of a cheap install — the slab map-cracks randomly within a couple of seasons. Overworked finishing and the wrong mix for the exposure compound it. Much of what looks like premature failure is really an installation that skipped the unglamorous fundamentals.",
         ],
       },
+      {
+        h2: "Telling the causes apart",
+        paragraphs: [
+          "Because the fixes differ, the first job is reading which force is actually at work — and the clues are usually visible. Surface flaking and exposed aggregate with the slab otherwise intact points to freeze-thaw and de-icer attack on the surface. Panels lifted at one edge or dropped at a corner, with cracks that reopen seasonally, point to clay-soil movement and base problems below. Random map-cracking across a whole slab within a couple of seasons points to jointing and installation. Cracks radiating from a fixed point, or following a buried utility line, point to a localized base or drainage failure there.",
+          "None of this is guesswork once you know what to look for, and getting it right is what keeps a repair from being aimed at the wrong target.",
+        ],
+      },
+      {
+        h2: "The causes rarely act alone",
+        paragraphs: [
+          "In the real world these forces compound. A poorly drained base lets water sit, which feeds freeze-thaw and softens the soil that then settles. De-icing salt opens the surface, which lets more water reach the base and the reinforcement. A missing control joint lets a shrinkage crack form, which becomes the entry point for the water that drives everything else. That is why a surface can look like it has 'a crack problem' when the real story is drainage feeding three failure modes at once.",
+          "We scope for the chain, not the single symptom — because sealing the crack while ignoring the drainage that opened it just buys a season.",
+        ],
+      },
+      {
+        h2: "What prevention actually looks like",
+        paragraphs: [
+          "The same short list of measures slows every one of these causes. Keep joints sealed and cracks closed so water cannot get into the slab or the base. Maintain a quality penetrating sealer on the surfaces most exposed to salt and freeze-thaw. Make sure water drains away from the concrete rather than pooling against or under it. Use sensible de-icing practice — don't bury young or already-scaling concrete in aggressive chlorides. And insist on proper jointing and base preparation on any new or replaced concrete in the first place.",
+          "None of these are expensive relative to the failures they prevent, and together they are the difference between concrete that meets its service life and concrete that fails years early.",
+        ],
+      },
+      {
+        h2: "Why 'it's just a crack' costs the most",
+        paragraphs: [
+          "The most expensive concrete failures are almost always the ones dismissed early. A hairline crack, an open joint, or a patch of surface scaling looks trivial, so it waits — through a winter that widens it, a wet spring that undermines it, and another freeze that breaks its edges. By the time it is obviously a problem, the cheap fix is gone and the bill is a multiple of what early action would have cost. Treating the small, correctly-diagnosed signs promptly is the single highest-return concrete decision a property makes.",
+        ],
+      },
+      {
+        h2: "The takeaway for a property manager",
+        paragraphs: [
+          "You don't need to diagnose concrete like an engineer — you need to recognize that failure has a cause, and that the cause decides the fix. When a surface starts scaling, a panel lifts, a crack reopens, or water pools where it shouldn't, the useful instinct is not 'patch it' but 'why is this happening?' A repair aimed at the cause holds; one aimed at the symptom comes back. The fastest way to overspend on concrete over time is to keep treating symptoms — and the fastest way to spend the right amount is to insist, every time, on understanding why the failure is there before deciding how to fix it.",
+        ],
+      },
     ],
     faqs: [
       {
@@ -433,6 +522,57 @@ export const ARTICLES: RichArticle[] = [
         h2: "An inspection cadence that fits the operation",
         paragraphs: [
           "The point of a cadence is to catch joints and cracks while they are still cheap to address. Walk the high-traffic aisles and dock areas on a set schedule, log spalled joints, opening cracks, and surface wear, and prioritize the items in the heaviest-traffic lanes. The aim is a short, recurring punch list handled on planned downtime — not a reactive scramble when a joint has failed badly enough to stop a lift.",
+        ],
+      },
+      {
+        h2: "Flatness isn't cosmetic — it's throughput",
+        paragraphs: [
+          "A floor's flatness directly affects how fast and how safely lifts move, especially as racking goes higher and very-narrow-aisle equipment gets less forgiving. As joints spall and slabs fault across cracks, the floor develops the small vertical steps that jar operators, shake loads at height, and force lifts to slow down. What reads as a minor surface issue at ground level becomes a real handling and safety problem at a thirty-foot lift height. Maintaining a flat, continuous surface is maintaining throughput.",
+        ],
+      },
+      {
+        h2: "Sealing, densifying, and dust control",
+        paragraphs: [
+          "Bare or worn concrete sheds fine dust that settles on product, equipment, and inventory and degrades air quality — a particular problem in food, pharmaceutical, and clean-handling operations. Densifying and sealing the slab hardens the wear surface, cuts the dusting, and makes the floor easier to clean. On a slab that is sound but tired, this is a maintenance-level intervention that restores the surface and defers replacement, and it is worth doing before the surface wears through to a costlier repair.",
+        ],
+      },
+      {
+        h2: "Build a floor budget before the floor builds it for you",
+        paragraphs: [
+          "Floors fail predictably enough to budget for, which is far cheaper than reacting to them. A simple plan — a recurring joint and crack inspection, a backlog of prioritized repairs, and a small annual allocation to work that backlog down — keeps the floor ahead of the damage. Compare that to deferring until a joint has failed badly enough to damage equipment or stop a lift, then paying for an emergency repair plus the downtime. A modest, planned floor budget is one of the better-returning lines in a facility's maintenance plan.",
+        ],
+      },
+      {
+        h2: "When maintenance becomes repair becomes replacement",
+        paragraphs: [
+          "Floor work is a continuum, and catching it early keeps it on the cheap end. A sealed joint and a filled crack are maintenance. A rebuilt spalled joint edge or a stabilized faulted crack is repair. A slab left until it is broken across wide areas, delaminating, or failing structurally is replacement — by far the most expensive and disruptive outcome. The entire point of a maintenance program is to keep the floor on the left side of that continuum, where the interventions are small, fast, and don't stop the operation.",
+        ],
+      },
+      {
+        h2: "Who should walk the floor, and what to log",
+        paragraphs: [
+          "The inspection doesn't require an engineer — it requires consistency. A facilities or maintenance lead walking the main travel aisles and dock areas on a set schedule, logging spalled joints, opening cracks, and surface wear with a location and a photo, produces exactly the prioritized punch list a contractor needs. The discipline is in doing it on a cadence and acting on the worst items before they widen, not in the sophistication of the inspection.",
+        ],
+      },
+      {
+        h2: "A starter floor-maintenance checklist",
+        paragraphs: [
+          "If you're building a floor program from scratch, start here and adapt it to your operation:",
+        ],
+        bullets: [
+          "Walk the primary forklift aisles and dock approaches on a set cadence, logging spalled joints, opening or faulting cracks, and surface wear with a location and photo.",
+          "Prioritize the joints first — they do the most damage to equipment and are the highest-return repair.",
+          "Re-fill and rebuild joints with the correct semi-rigid material before the edges break down further.",
+          "Stabilize and seal cracks while they're tight, before they fault under load.",
+          "Densify and seal worn, dusting surfaces rather than waiting for them to fail through.",
+          "Schedule repairs into planned downtime, using rapid-set materials where an aisle has to carry traffic again fast.",
+        ],
+      },
+      {
+        h2: "The payoff of staying ahead of the floor",
+        paragraphs: [
+          "None of this stops the operation, and all of it is cheaper than the equipment wear and emergency repairs that neglect guarantees. Treat the list as a living document — as you learn where your floor fails first, weight the inspection toward those zones — and the floor stays ahead of the damage instead of chasing it.",
+          "The payoff isn't abstract: a floor on a maintenance cadence keeps lifts moving at full speed, protects the equipment budget, holds down dust, and never produces the surprise of an aisle that has to close because a joint finally gave out. For a facility where the floor is part of the machinery, that predictability is worth far more than the modest cost of the program.",
         ],
       },
     ],
@@ -531,6 +671,43 @@ export const ARTICLES: RichArticle[] = [
           "Document what you find with photos and dates — that record alone strengthens your liability position. Then escalate anything involving trip hazards on high-traffic routes, possible ADA deficiencies, widespread or faulting cracks, standing water and suspected base failure, or dock and structural concerns. A specialist assessment turns your punch list into a prioritized, line-item scope you can budget.",
         ],
       },
+      {
+        h2: "Document as you go — it's half the value",
+        paragraphs: [
+          "The walkthrough is worth far more if you write it down. A photo of each problem with the date and a one-line note ('NE corner sidewalk, ~half-inch lip, by suite 120') turns a vague memory into a record you can act on and defend. Two things come out of that habit: a prioritized list a contractor can quote precisely, and dated evidence that the property is actively monitored — which is exactly what strengthens a premises-liability position if a fall is ever claimed. The weakest spot to be in is a hazard that existed, was knowable, and has no record of being seen or addressed.",
+        ],
+      },
+      {
+        h2: "Grade what you find — don't just list it",
+        paragraphs: [
+          "A flat list of fifty items is overwhelming and gets ignored; a graded list gets funded. As you walk, sort each finding into rough tiers: immediate safety and ADA hazards (a sharp lip on a busy walk, a missing detectable warning), items that will worsen this year if untouched (an open crack feeding water into a base), and cosmetic or low-traffic issues that can wait. That triage is what lets you fund the urgent handful now and schedule the rest, instead of staring at an undifferentiated pile.",
+        ],
+      },
+      {
+        h2: "Turn the walkthrough into a budget",
+        paragraphs: [
+          "The end goal of inspecting isn't a list — it's a plan you can put a number on. Grouped, graded findings convert directly into a phased scope: the must-do items as this year's spend, the watch-items as next year's, and the cosmetic backlog as opportunistic work bundled with larger projects. For a portfolio, the same walk repeated across properties on a cadence produces a consolidated, comparable picture that makes capital planning and reserve contributions defensible rather than guessed.",
+        ],
+      },
+      {
+        h2: "Time it to the seasons",
+        paragraphs: [
+          "When you walk matters as much as how often. The most revealing time in central Indiana is right after winter, when a season of freeze-thaw and de-icing has exposed the surface scaling, fresh offsets, and heaved panels that weren't there in the fall. A second walk before your peak season catches anything that has moved since. Tie the inspection to those windows and you catch problems while they're small and while there's still budget runway to address them before they become urgent.",
+        ],
+      },
+      {
+        h2: "Red flags that warrant a call now",
+        paragraphs: [
+          "Most findings can wait for the scheduled scope, but a few warrant picking up the phone immediately: a trip hazard on a high-traffic route you can't barricade, a ramp or accessible space that looks out of compliance, standing water suggesting the base under a slab is failing, a dock approach that has dropped enough to misalign a trailer, or any crack actively widening between visits. These are the conditions where waiting measurably raises either the risk or the eventual cost.",
+        ],
+      },
+      {
+        h2: "A one-page walkthrough route",
+        paragraphs: [
+          "To make the walk repeatable, give it a fixed route so nothing gets skipped: start at the public entrances and storefront or lobby walks (highest liability), move to the accessible parking, aisles, and curb ramps, then the parking field and drive aprons, then the curbs and drainage points, and finish at the docks, service areas, and any interior floors. Cover the same loop every time, in the same order, and the inspection becomes a fifteen-minute habit rather than a project.",
+          "Two passes a year on that route — after winter and before peak season — will surface the large majority of what is going to become a claim or a capital surprise, while it is still small and cheap to handle. The walk itself costs nothing; what it saves is the difference between a quarter-inch grind and a trip-and-fall claim, or a sealed crack and a failed base. And because you're building a dated record as you go, every walk also quietly strengthens the property's liability position — so it pays for itself twice.",
+        ],
+      },
     ],
     faqs: [
       {
@@ -612,6 +789,50 @@ export const ARTICLES: RichArticle[] = [
         h2: "Build it into a program, not a reaction",
         paragraphs: [
           "The centers that avoid surprises treat sidewalk care as a standing program: a regular survey, a prioritized punch list, documented remediation, and a phased plan for the larger panel and section repairs. That converts an unpredictable liability into a budgeted line and produces the dated records that protect the center if a claim is ever filed. For multi-tenant and multi-property retail, one consistent program across sites keeps it manageable.",
+        ],
+      },
+      {
+        h2: "The economics of staying ahead of it",
+        paragraphs: [
+          "Proactive sidewalk maintenance at a retail center is cheaper than the alternative on every axis. Grinding a quarter-inch lip costs a fraction of replacing the panel it will become if heave keeps working on it, and a tiny fraction of settling a single trip-and-fall claim. Spread across a center's whole walk system, a modest recurring spend keeps the surfaces safe and presentable and caps the tail risk of a large claim or an emergency replacement during peak season. The centers that treat sidewalks as a standing line item spend less over time than the ones that wait for failures.",
+        ],
+      },
+      {
+        h2: "Coordinating with tenants and CAM",
+        paragraphs: [
+          "Sidewalk maintenance at a multi-tenant center is also a communication exercise. The common-area walks are typically the landlord's responsibility and are usually recovered through CAM, so a clear, line-itemed scope matters for clean cost allocation and for keeping tenants informed. Giving tenants real dates and a sense of how their storefront access is protected during the work turns a potential complaint into a non-event — and demonstrates the center is managed actively, which tenants weigh at renewal.",
+        ],
+      },
+      {
+        h2: "Winter operations and salt strategy",
+        paragraphs: [
+          "Much of a retail walk's wear is self-inflicted through winter operations. Over-applying aggressive de-icers — especially on younger or already-scaling concrete near entrances — accelerates the surface failure that maintenance then has to chase. A smarter salt strategy (right product, right amount, applied where it's actually needed) and keeping vulnerable entrance surfaces sealed meaningfully slows the scaling that hits retail entrances hardest. Coordinating the snow-and-ice plan with the concrete plan is one of the cheapest ways to extend a walk's life.",
+        ],
+      },
+      {
+        h2: "Make it an annual program, not a reaction",
+        paragraphs: [
+          "The centers that avoid sidewalk surprises run it as a standing program: a scheduled survey, a graded punch list, prompt grinding of new offsets, documented remediation, and a phased plan for the larger panel work — all built into the annual budget. That converts an unpredictable liability into a known line item and produces the dated records that protect the center if a claim is filed. For an owner or manager running several centers, one consistent program across sites keeps it manageable and comparable.",
+        ],
+      },
+      {
+        h2: "A simple retail sidewalk maintenance cycle",
+        paragraphs: [
+          "A retail center's sidewalk program doesn't need to be complicated — it needs to be consistent. A workable cycle looks like this:",
+        ],
+        bullets: [
+          "Survey the full walk system on a set cadence — at minimum after winter and before peak season — logging every offset, crack, and scaled area with a photo and location.",
+          "Grind the new trip hazards promptly; most clear in a single low-disruption visit since grinding needs no cure time.",
+          "Track the panels and sections needing replacement and batch them into a phased plan funded across the budget year.",
+          "Keep the dated before-and-after records together as the center's liability file.",
+          "Revisit the salt and drainage practices driving the surface wear, so the program isn't fighting the same causes every year.",
+        ],
+      },
+      {
+        h2: "Run it as a loop, across the whole portfolio",
+        paragraphs: [
+          "Run on that loop, the center's walks stay safe and presentable, the spend stays predictable, and nothing accumulates into an emergency during the season the center can least afford disruption. The discipline is the cadence, not the complexity — a center that walks its sidewalks twice a year and acts on what it finds will spend less, look better, and carry less liability than one that waits for a tenant or a customer to report a problem, by which point the cheap window has usually closed.",
+          "For an owner or manager with several centers, the same cycle applied uniformly across the portfolio turns a scattered set of sidewalk risks into one comparable, budgetable program — and makes it obvious which centers need attention first.",
         ],
       },
     ],

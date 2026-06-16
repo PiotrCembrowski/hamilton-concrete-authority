@@ -43,6 +43,30 @@ Curb ramps and certain transitions require detectable warning surfaces — the t
 
 A property built to standard does not necessarily stay compliant. Central Indiana's freeze-thaw and clay soils move concrete, and a ramp or walk that met its slopes when poured can drift out of tolerance as it settles or heaves. That is why accessibility should be part of routine concrete inspection, not a one-time sign-off — and why correcting a slope problem properly means addressing the base so it does not move back out of conformance.
 
+## Accessible parking and access aisles count too
+
+The accessible route doesn't begin at the sidewalk — it begins at the accessible parking spaces and the striped access aisles beside them, and the concrete there is held to the same slope standards. Accessible spaces and aisles must stay within tight slope limits in every direction, so a space that has settled or heaved is a compliance problem before anyone reaches the curb ramp. The number of accessible spaces required scales with the lot size, and van-accessible spaces need wider aisles.
+
+Because these areas take vehicle load and weather like the rest of the lot, they settle and crack — and when they do, the slope drifts out of tolerance. Accessible parking and access-aisle concrete is part of the route we measure and correct, not an afterthought.
+
+## How a compliant property drifts out of compliance
+
+Few properties set out to be non-compliant; they drift there. Concrete poured to standard settles over central Indiana's clay until a cross-slope exceeds the limit. A curb ramp's detectable warnings wear flat under traffic and snowplows. A landing that was adequate gets a thick overlay that shrinks it below the minimum. A repair done without accessibility in mind reintroduces a lip at a transition. Each change is small, and each can turn a compliant route into a citable one.
+
+That gradual drift is exactly why accessibility belongs in routine concrete inspection. A property checked once at construction and never again will not stay compliant through a decade of Indiana winters.
+
+## What an accessibility-aware repair actually includes
+
+Correcting an access deficiency is more than pouring concrete to a number. It means measuring the existing running slope, cross-slope, landing dimensions, and offsets; identifying precisely what is out of range; correcting the concrete to bring those dimensions back within tolerance; and addressing the base where settlement caused the drift, so the correction holds rather than moving back out next season. It also means installing or replacing detectable warnings to spec, with proper contrast, where curb ramps require them.
+
+Finally, it means documenting the verified post-repair dimensions — the record that demonstrates the corrections were made to standard on a date certain, which is the evidence a property wants if an access complaint arrives. A full legal compliance determination remains the role of your counsel or a certified accessibility specialist.
+
+## Why documentation is the quiet hero of access compliance
+
+For accessibility, the record is as valuable as the repair. A property that can show, with dated measurements and photos, that it identified an access deficiency and corrected the concrete to the applicable dimensions is in a fundamentally different position than one that can't — even when the physical condition is identical. Good-faith, documented remediation is what demonstrates a property is managing accessibility actively rather than ignoring it.
+
+That matters because access deficiencies tend to be measurable and visible, which makes them easy to allege and hard to wave away after the fact. The properties that handle this well fold accessibility into routine concrete inspection, correct what drifts out of tolerance, and keep the verified records — so if a complaint ever arrives, the answer is a dated file, not a scramble. None of this substitutes for a legal compliance review by qualified counsel or an accessibility specialist; it is the concrete-side discipline that supports it.
+
 ## FAQ (unique)
 
 ### Who is responsible for ADA compliance on a leased commercial property?

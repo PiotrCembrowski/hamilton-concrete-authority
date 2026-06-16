@@ -51,6 +51,32 @@ Behind the building, check dock approaches for cracking and settlement (and whet
 
 Document what you find with photos and dates — that record alone strengthens your liability position. Then escalate anything involving trip hazards on high-traffic routes, possible ADA deficiencies, widespread or faulting cracks, standing water and suspected base failure, or dock and structural concerns. A specialist assessment turns your punch list into a prioritized, line-item scope you can budget.
 
+## Document as you go — it's half the value
+
+The walkthrough is worth far more if you write it down. A photo of each problem with the date and a one-line note ('NE corner sidewalk, ~half-inch lip, by suite 120') turns a vague memory into a record you can act on and defend. Two things come out of that habit: a prioritized list a contractor can quote precisely, and dated evidence that the property is actively monitored — which is exactly what strengthens a premises-liability position if a fall is ever claimed. The weakest spot to be in is a hazard that existed, was knowable, and has no record of being seen or addressed.
+
+## Grade what you find — don't just list it
+
+A flat list of fifty items is overwhelming and gets ignored; a graded list gets funded. As you walk, sort each finding into rough tiers: immediate safety and ADA hazards (a sharp lip on a busy walk, a missing detectable warning), items that will worsen this year if untouched (an open crack feeding water into a base), and cosmetic or low-traffic issues that can wait. That triage is what lets you fund the urgent handful now and schedule the rest, instead of staring at an undifferentiated pile.
+
+## Turn the walkthrough into a budget
+
+The end goal of inspecting isn't a list — it's a plan you can put a number on. Grouped, graded findings convert directly into a phased scope: the must-do items as this year's spend, the watch-items as next year's, and the cosmetic backlog as opportunistic work bundled with larger projects. For a portfolio, the same walk repeated across properties on a cadence produces a consolidated, comparable picture that makes capital planning and reserve contributions defensible rather than guessed.
+
+## Time it to the seasons
+
+When you walk matters as much as how often. The most revealing time in central Indiana is right after winter, when a season of freeze-thaw and de-icing has exposed the surface scaling, fresh offsets, and heaved panels that weren't there in the fall. A second walk before your peak season catches anything that has moved since. Tie the inspection to those windows and you catch problems while they're small and while there's still budget runway to address them before they become urgent.
+
+## Red flags that warrant a call now
+
+Most findings can wait for the scheduled scope, but a few warrant picking up the phone immediately: a trip hazard on a high-traffic route you can't barricade, a ramp or accessible space that looks out of compliance, standing water suggesting the base under a slab is failing, a dock approach that has dropped enough to misalign a trailer, or any crack actively widening between visits. These are the conditions where waiting measurably raises either the risk or the eventual cost.
+
+## A one-page walkthrough route
+
+To make the walk repeatable, give it a fixed route so nothing gets skipped: start at the public entrances and storefront or lobby walks (highest liability), move to the accessible parking, aisles, and curb ramps, then the parking field and drive aprons, then the curbs and drainage points, and finish at the docks, service areas, and any interior floors. Cover the same loop every time, in the same order, and the inspection becomes a fifteen-minute habit rather than a project.
+
+Two passes a year on that route — after winter and before peak season — will surface the large majority of what is going to become a claim or a capital surprise, while it is still small and cheap to handle. The walk itself costs nothing; what it saves is the difference between a quarter-inch grind and a trip-and-fall claim, or a sealed crack and a failed base. And because you're building a dated record as you go, every walk also quietly strengthens the property's liability position — so it pays for itself twice.
+
 ## FAQ (unique)
 
 ### How often should we walk a commercial property for concrete issues?

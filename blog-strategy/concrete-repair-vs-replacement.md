@@ -45,6 +45,30 @@ Replacement earns its cost when the slab has lost the base that supports it, has
 
 The trap is comparing only the upfront numbers. A repair is cheaper today, but if it will fail in two seasons because the base is gone, its true cost is the repair plus the replacement you will still have to do. The right comparison is cost over the expected service life: a $1 repair that lasts a decade beats a series of cheaper patches that do not, and a replacement that prevents annual repairs can pay for itself across a few budget cycles. A good contractor will show you that math rather than just the sticker.
 
+## The costs that never show up on the estimate
+
+The repair-or-replace comparison is usually run on the upfront bid alone, which quietly favors whichever option is cheaper today and ignores the costs that land later. A repair that fails in two seasons carries the cost of the repair, the cost of the eventual replacement, and everything in between — the repeated mobilizations, the recurring tenant disruption, and the liability of a known defect that keeps reopening. A replacement that ends an annual repair cycle eliminates all of it.
+
+For a property manager, the honest comparison includes downtime and disruption (how many times will tenants be affected?), the administrative cost of managing repeated small projects, and the exposure of a surface that keeps degrading between fixes. None of that appears on a line-item bid, but it is real money and real risk — and it is often what tips a borderline call toward replacing once instead of patching forever.
+
+## Phasing dissolves the all-or-nothing trap
+
+Much of the anxiety around this decision comes from treating it as a single, total choice for a whole property. It rarely has to be. A parking field, a sidewalk network, or a dock can be triaged: replace the sections that have genuinely failed, repair the ones still serviceable, and schedule the borderline areas into a later budget year while monitoring them.
+
+That phased approach lets a board or owner fund the safety- and liability-critical work now without committing to a capital number that isn't justified yet, and it spreads disruption out over time. We scope every property this way — graded by severity — so the decision becomes a prioritized plan rather than one intimidating yes-or-no.
+
+## Give the decision-maker something they can approve
+
+Whoever signs off — a board, an owner, a regional director — needs more than a recommendation; they need the reasoning in a form they can defend. A sound proposal shows the condition of each area, the base assessment behind the call, the option chosen and why, and the cost of the alternative. That lets the approver see that replacement was recommended because the base is gone, not because it's the bigger invoice — or that repair was chosen because the slab is still sound.
+
+That documentation also becomes part of the asset's history, feeding the next reserve study and making the following year's decision faster and better-informed.
+
+## A quick gut-check before you decide
+
+When a contractor hands you a repair-or-replace recommendation, a few questions separate a sound call from a lazy one. Is the base stable, and how do they know — did they look below the surface or only at it? How widespread is the failure, really: one area or the whole slab? How many times has this exact spot been repaired before? And what does the alternative cost over the expected service life, not just today? A recommendation that answers those clearly, and is willing to repair where it can and phase where it should, has earned your trust. One that jumps to 'replace everything' with no breakdown has not.
+
+You don't need to be a concrete expert to ask them — you just need the contractor to show their work. The right partner welcomes the questions, because the honest answer is usually what keeps you as a client across the next several budget cycles.
+
 ## FAQ (unique)
 
 ### Can part of a slab be repaired and part replaced?
