@@ -1,9 +1,12 @@
 import type { RichCaseStudy } from "./content-types";
 
-// IMPORTANT: every entry here is an ILLUSTRATIVE PLACEHOLDER. No real client,
-// square footage, date, or outcome is asserted. The template renders a visible
-// "[PLACEHOLDER — REPLACE WITH REAL PROJECT]" banner on each page. Replace with
-// real, verifiable projects (and real photos) before treating any of this as fact.
+// UNPUBLISHED — this data is intentionally NOT imported or rendered anywhere. The
+// /case-studies index, the /case-studies/[slug] pages, the homepage section, and the
+// nav/footer/sitemap links were removed because every entry below is an ILLUSTRATIVE
+// PLACEHOLDER (no real client, square footage, date, or outcome). The data is retained
+// here so the section can be re-published quickly once real, verifiable projects and
+// photos exist — at which point re-add the route, template, nav links, and sitemap entries.
+// Do NOT render any of this as fact until it is replaced with real projects.
 export const CASE_STUDIES_CONTENT: RichCaseStudy[] = [
   {
     slug: "retail-center-sidewalk-replacement-fishers",

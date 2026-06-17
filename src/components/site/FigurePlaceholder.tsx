@@ -1,36 +1,24 @@
-import { ImageIcon } from "lucide-react";
 import type { ImageSlot } from "@/data/content-types";
 
 /**
- * Renders an on-brand placeholder for a planned photo. There are no real project
- * photos yet, so this keeps the layout intentional and carries the production
- * filename + alt text for the developer who swaps in a real <Image>.
+ * Image insertion point. There are no real project photos yet, so this renders
+ * NOTHING — no placeholder box, no "photo slot" label, no caption. When a real
+ * asset exists, replace the `return null` with a next/image, e.g.:
  *
- * To go live: replace this block with
- *   <Image src={`/images/${slot.filename}`} alt={slot.alt} width={...} height={...} />
- * (next/image, modern format, explicit dimensions, lazy by default).
+ *   import Image from "next/image";
+ *   return (
+ *     <figure className="overflow-hidden rounded-sm border border-border bg-card">
+ *       <Image src={`/images/${slot.filename}`} alt={slot.alt} width={1280} height={720}
+ *         className="aspect-[16/9] w-full object-cover" />
+ *       <figcaption className="border-t border-border px-4 py-2.5 text-xs text-muted-foreground">
+ *         {slot.caption}
+ *       </figcaption>
+ *     </figure>
+ *   );
+ *
+ * The ImageSlot (filename, alt, caption) keeps the asset guidance in code only.
  */
 export function FigurePlaceholder({ slot }: { slot: ImageSlot }) {
-  return (
-    <figure
-      className="overflow-hidden rounded-sm border border-dashed border-border bg-[color:var(--color-surface)]"
-      data-image-slot={slot.position}
-      data-filename={slot.filename}
-    >
-      <div
-        role="img"
-        aria-label={slot.alt}
-        className="flex aspect-[16/9] flex-col items-center justify-center gap-2 px-6 text-center"
-      >
-        <ImageIcon className="h-7 w-7 text-accent" aria-hidden />
-        <span className="font-display text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
-          {slot.position} photo slot
-        </span>
-        <span className="max-w-md text-xs text-muted-foreground">{slot.alt}</span>
-      </div>
-      <figcaption className="border-t border-border bg-card px-4 py-2.5 text-xs text-muted-foreground">
-        {slot.caption}
-      </figcaption>
-    </figure>
-  );
+  void slot; // retained for the eventual <Image>; nothing is rendered until a real asset exists
+  return null;
 }

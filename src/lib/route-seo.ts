@@ -1,8 +1,6 @@
-import { CITIES, SERVICES } from "@/data/site";
+import { SERVICES } from "@/data/site";
 import { CITIES_CONTENT } from "@/data/cities";
-import { ARTICLES } from "@/data/resources";
 import { INDUSTRY_PAGES } from "@/data/industries";
-import { CASE_STUDIES_CONTENT } from "@/data/case-studies";
 
 // Canonical/serving host. The site serves on www, so canonicals, og:url, the
 // sitemap, robots, and schema must all use www to avoid a host-signal mismatch.
@@ -46,12 +44,6 @@ const staticRouteMeta: Record<string, RouteMeta> = {
       "Guides and checklists for property managers — cost guide, repair vs replacement, ADA compliance, warehouse maintenance, and more.",
     canonical: "/resources",
   },
-  "/case-studies": {
-    title: "Case Studies — Commercial Concrete Repair Projects",
-    description:
-      "Real commercial concrete repair projects — retail, warehouse, HOA, office, and medical — completed throughout Hamilton County, IN.",
-    canonical: "/case-studies",
-  },
   "/contact": {
     title: "Request a Free Assessment — Hamilton County Concrete Repair",
     description:
@@ -84,21 +76,6 @@ export function getIndustryMetaBySlug(slug: string): RouteMeta | undefined {
 export function isIndustrySlug(slug: string): boolean {
   return slug in industryMetaBySlug;
 }
-
-export const allSitePaths = [
-  "/",
-  "/services",
-  "/industries",
-  "/service-areas",
-  "/resources",
-  "/case-studies",
-  "/contact",
-  ...SERVICES.map((s) => `/${s.slug}`),
-  ...CITIES.map((c) => `/concrete-repair-${c.slug}-in`),
-  ...ARTICLES.map((a) => a.path),
-  ...INDUSTRY_PAGES.map((i) => `/${i.slug}`),
-  ...CASE_STUDIES_CONTENT.map((c) => c.path),
-];
 
 export function getStaticRouteMeta(pathname: string): RouteMeta | undefined {
   return staticRouteMeta[pathname];

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, CheckCircle2, MapPin, Phone } from "lucide-react";
+import { ArrowRight, ArrowUpRight, MapPin, Phone } from "lucide-react";
 import type { RichCity } from "@/data/content-types";
 import { SERVICES, SITE } from "@/data/site";
 import { EstimateForm } from "./EstimateForm";
@@ -123,28 +123,9 @@ export function CityPageTemplate({ city }: { city: RichCity }) {
               </div>
             ))}
 
-            {/* Project example — tagged placeholder until real data exists */}
-            <div className="mt-10 rounded-sm border border-border bg-card p-6">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="rounded-sm bg-accent/15 px-2 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-[color:var(--color-primary)]">
-                  Project example
-                </span>
-                <span className="rounded-sm border border-dashed border-accent px-2 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-accent">
-                  Placeholder — replace with real project
-                </span>
-              </div>
-              <h3 className="mt-3 font-display text-lg font-semibold text-foreground">
-                {city.project.title}
-              </h3>
-              <p className="mt-2 text-sm text-muted-foreground">{city.project.summary}</p>
-              <ul className="mt-4 grid gap-1.5 border-t border-border pt-4 sm:grid-cols-3">
-                {city.project.metrics.map((m) => (
-                  <li key={m} className="flex items-center gap-2 text-xs text-foreground">
-                    <span className="h-1.5 w-1.5 rounded-full bg-accent" /> {m}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {/* Invented project example withheld until a real, verifiable project exists.
+                The data is retained in cities.ts (city.project) but is intentionally NOT
+                rendered — fabricated specifics must not be presented to users as fact. */}
           </article>
 
           <aside className="lg:sticky lg:top-24 lg:self-start">

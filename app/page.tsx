@@ -7,7 +7,6 @@ import {
   WhyChooseUs,
   ProcessSteps,
   ServiceArea,
-  CaseStudies,
   FAQSection,
   FinalCTA,
 } from "@/components/site/Sections";
@@ -44,7 +43,6 @@ export default function HomePage() {
       <WhyChooseUs />
       <ProcessSteps />
       <ServiceArea />
-      <CaseStudies />
       <FAQSection />
       <FinalCTA />
     </>
