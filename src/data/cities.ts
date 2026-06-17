@@ -521,6 +521,269 @@ export const CITIES_CONTENT: RichCity[] = [
       },
     ],
   },
+  // ── Cicero (optional add — northern Hamilton County) ─────────────────────────
+  {
+    slug: "cicero",
+    name: "Cicero",
+    path: "/concrete-repair-cicero-in",
+    county: "Hamilton County",
+    metaTitle: "Commercial Concrete Repair in Cicero, IN — HCCR",
+    metaDescription:
+      "Commercial concrete repair in Cicero, IN — Morse Reservoir retail, the SR-19 corridor & lake-community common areas. Request a visit.",
+    h1: "Commercial Concrete Repair in Cicero, Indiana",
+    primaryKeyword: "commercial concrete repair Cicero IN",
+    secondaryKeywords: [
+      "sidewalk repair Cicero IN",
+      "HOA concrete repair Cicero Indiana",
+      "Morse Reservoir area concrete repair",
+    ],
+    intro:
+      "Cicero anchors the northern end of Hamilton County around Morse Reservoir, and its commercial concrete reflects that lakeside, small-town character — recreation-area retail, the SR-19 corridor, and the common-area concrete of the lake communities ringing the reservoir. We serve Cicero as part of our home county, bringing the same documented, commercial-grade process to the north end that we bring to Carmel and Noblesville.",
+    localContext: [
+      "Morse Reservoir and the surrounding lake communities",
+      "The SR-19 corridor — Cicero's main north-south commercial route",
+      "Downtown Cicero and the Jackson Street area",
+      "Red Bridge Park and the recreation-area properties",
+      "Northern Hamilton County's small-town commercial mix",
+    ],
+    sections: [
+      {
+        h2: "Lakeside, small-town commercial concrete",
+        paragraphs: [
+          "Cicero's commercial base is smaller and more seasonal than the county's southern cities, but the concrete works just as hard. Recreation-area retail and services around Morse Reservoir, the businesses along SR-19, and downtown Cicero all depend on safe, presentable sidewalks, parking, and entrances — and they see the same central-Indiana winters as everywhere else, just with a lake's worth of moisture nearby.",
+          "We bring the full commercial scope north to Cicero: sidewalk and entrance repair, parking and apron work, curbs, and ADA access — scoped and documented the same way regardless of how far up the county a property sits.",
+        ],
+      },
+      {
+        h2: "The lake-community HOAs around Morse Reservoir",
+        paragraphs: [
+          "A distinctive feature of the Cicero market is the cluster of lake and residential-adjacent community associations around Morse Reservoir, many with extensive common-area concrete — shared walks, clubhouse and amenity entrances, and parking. Those associations face the same challenge as any HOA: a large concrete footprint, a reserve budget, and resident liability. We handle them as documented, phased programs a board can budget, the same way we do for HOAs countywide.",
+        ],
+      },
+      {
+        h2: "Why Cicero concrete fails",
+        paragraphs: [
+          "The drivers are the central-Indiana standards — freeze-thaw cycling and shrink-swell clay soils that heave and settle panels, plus winter de-icing that scales surfaces at entrances. Lake-area properties can see concentrated moisture and drainage challenges near the water, which makes proper grading and drainage correction especially important so repairs hold rather than re-settling.",
+        ],
+      },
+      {
+        h2: "Worth the drive, scheduled to the local pace",
+        paragraphs: [
+          "Being at the north end of the county doesn't mean second-tier service. Cicero properties get the same on-site assessment, line-item proposal, phased scheduling, and closeout documentation as anywhere we work — scheduled considerately around a smaller-town, often seasonal, business rhythm.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you travel to Cicero and the north end of Hamilton County?",
+        a: "Yes — Cicero is part of our home county, and we serve it with the same crews and the same documented process we use in Carmel, Fishers, and Noblesville. Being at the northern end of the county doesn't change the scope, the proposal, or the warranty; it just factors into scheduling.",
+      },
+      {
+        q: "Do you work with the lake-community associations around Morse Reservoir?",
+        a: "We do. The community associations around Morse Reservoir carry the same large common-area concrete footprint and reserve-budget pressure as any HOA, and we handle them as documented, phased programs a board can fund incrementally — prioritizing the trip and liability hazards first.",
+      },
+      {
+        q: "Can you handle seasonal recreation-area commercial concrete in Cicero?",
+        a: "Yes. We're used to scheduling around a seasonal business rhythm, and we'll plan recreation-area and retail concrete work to your slower windows so the property is at its best when its season picks up. The work itself — sidewalks, parking, entrances, ADA — is the same commercial scope we run countywide.",
+      },
+    ],
+    internalLinks: [
+      { href: "/sidewalk-repair", anchor: "commercial sidewalk repair" },
+      { href: "/hoa-concrete-repair", anchor: "lake-community HOA concrete programs" },
+      { href: "/parking-lot-concrete-repair", anchor: "parking-lot concrete repair" },
+      { href: "/ada-compliance-repairs", anchor: "ADA access repairs" },
+    ],
+    project: {
+      title: "Morse Reservoir lake-community HOA — common-area walkway repair",
+      summary:
+        "Documented and repaired trip hazards and failing panels across the common-area walkways of a Cicero lake community, prioritized for the board's reserve budget.",
+      metrics: ["Common-area hazard survey", "Trip hazards remediated first", "Reserve-friendly phased scope"],
+    },
+    images: [
+      {
+        position: "hero",
+        filename: "concrete-repair-cicero-in-morse-reservoir.jpg",
+        alt: "Commercial concrete repair near Morse Reservoir in Cicero, northern Hamilton County, Indiana",
+        caption: "Commercial concrete repair for Cicero and the Morse Reservoir area.",
+      },
+    ],
+  },
+
+  // ── Sheridan (optional add — northwest Hamilton County) ──────────────────────
+  {
+    slug: "sheridan",
+    name: "Sheridan",
+    path: "/concrete-repair-sheridan-in",
+    county: "Hamilton County",
+    metaTitle: "Commercial Concrete Repair in Sheridan, IN — HCCR",
+    metaDescription:
+      "Commercial concrete repair in Sheridan, IN — the SR-38/SR-47 corridor, historic downtown & ag/industrial sites. Request a visit.",
+    h1: "Commercial Concrete Repair in Sheridan, Indiana",
+    primaryKeyword: "commercial concrete repair Sheridan IN",
+    secondaryKeywords: [
+      "sidewalk repair Sheridan IN",
+      "industrial concrete repair Sheridan Indiana",
+      "agricultural facility concrete repair Hamilton County",
+    ],
+    intro:
+      "Sheridan sits in the far northwest corner of Hamilton County, where the SR-38 and SR-47 routes meet and the county turns agricultural and industrial. Its commercial concrete runs from an older historic downtown to working ag and light-industrial facilities — and we serve all of it as part of our home county, with the heavy-duty capability those facilities need.",
+    localContext: [
+      "The SR-38 and SR-47 corridor through northwest Hamilton County",
+      "Historic downtown Sheridan and the Main Street area",
+      "Agricultural and light-industrial facilities around the town",
+      "The Hamilton Heights community area",
+      "The rural, working character of the county's northwest edge",
+    ],
+    sections: [
+      {
+        h2: "Where Hamilton County turns agricultural and industrial",
+        paragraphs: [
+          "Sheridan's commercial profile is different from the county's southern suburbs — more working facilities, more heavy-duty concrete, and an older downtown core. Ag operations, light-industrial sites, and the businesses along SR-38 and SR-47 need concrete that handles real load: equipment and truck traffic, loading and service areas, and pavement that takes a beating. That's squarely in our wheelhouse.",
+          "At the same time, Sheridan's historic downtown carries the older, heavily-used pedestrian concrete typical of an established Main Street, which needs careful repair to stay safe and presentable.",
+        ],
+      },
+      {
+        h2: "Heavy-duty concrete for working facilities",
+        paragraphs: [
+          "For Sheridan's ag and industrial properties, the scope leans toward the demanding end: slab and pavement repair built for equipment and truck loads, loading and service-area concrete, dumpster and equipment pads sized for the real duty cycle, and curb and drainage work. We engineer these repairs for the loads they actually carry, not for a light-commercial assumption that fails in a season.",
+        ],
+      },
+      {
+        h2: "An older downtown that needs a careful hand",
+        paragraphs: [
+          "Downtown Sheridan's sidewalks, entrances, and steps have weathered decades of Indiana winters, and they carry steady pedestrian traffic through an established commercial district. We repair that older pedestrian concrete with attention to keeping the district open and its character intact — flush, safe transitions and trip-hazard control on long-service surfaces.",
+        ],
+      },
+      {
+        h2: "Far corner of the county, same standard",
+        paragraphs: [
+          "Sheridan's distance from the county's center doesn't change how we work it. Properties there get the same assessment, line-item proposal, phased scheduling, and documentation as anywhere — with scheduling that accounts for the longer reach and the rhythms of a working, agricultural community.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you serve Sheridan and the far northwest corner of Hamilton County?",
+        a: "Yes. Sheridan is part of Hamilton County and part of our service area, and we bring the same crews and documented process out to the northwest corner that we use elsewhere in the county. The distance factors into scheduling, not into the scope or the standard of the work.",
+      },
+      {
+        q: "Do you handle agricultural and industrial concrete in Sheridan?",
+        a: "That's a core fit for the Sheridan market. We repair heavy-duty slab and pavement, loading and service-area concrete, and equipment and dumpster pads engineered for real equipment and truck loads — not light-commercial assumptions. We scope these to the actual duty cycle so they hold up.",
+      },
+      {
+        q: "Can you repair Sheridan's older downtown sidewalks and entrances?",
+        a: "Yes. Downtown Sheridan has the long-service pedestrian concrete typical of an established Main Street, and we repair those sidewalks, entrances, and steps with care to keep the district safe, open, and presentable while we work — flush transitions and trip-hazard control on aging surfaces.",
+      },
+    ],
+    internalLinks: [
+      { href: "/sidewalk-repair", anchor: "downtown sidewalk repair" },
+      { href: "/warehouse-floor-repair", anchor: "industrial floor repair" },
+      { href: "/loading-dock-repair", anchor: "loading and service-area concrete" },
+      { href: "/parking-lot-concrete-repair", anchor: "heavy-duty pavement repair" },
+    ],
+    project: {
+      title: "Sheridan light-industrial facility — service-area slab repair",
+      summary:
+        "Repaired failing service-area and equipment-pad concrete at a Sheridan light-industrial facility, engineered for the site's equipment and truck loads and phased around operations.",
+      metrics: ["Heavy-duty slab rebuild", "Engineered for equipment loads", "Phased around operations"],
+    },
+    images: [
+      {
+        position: "hero",
+        filename: "concrete-repair-sheridan-in-industrial.jpg",
+        alt: "Heavy-duty commercial concrete repair at a Sheridan, northwest Hamilton County, Indiana facility",
+        caption: "Heavy-duty and downtown concrete repair for Sheridan.",
+      },
+    ],
+  },
+
+  // ── Arcadia (optional add — northern Hamilton County) ────────────────────────
+  {
+    slug: "arcadia",
+    name: "Arcadia",
+    path: "/concrete-repair-arcadia-in",
+    county: "Hamilton County",
+    metaTitle: "Commercial Concrete Repair in Arcadia, IN — HCCR",
+    metaDescription:
+      "Commercial concrete repair in Arcadia, IN — the SR-19 corridor, small downtown & agricultural facilities across northern Hamilton County. Request a visit.",
+    h1: "Commercial Concrete Repair in Arcadia, Indiana",
+    primaryKeyword: "commercial concrete repair Arcadia IN",
+    secondaryKeywords: [
+      "sidewalk repair Arcadia IN",
+      "agricultural facility concrete repair Arcadia Indiana",
+      "small town commercial concrete repair Hamilton County",
+    ],
+    intro:
+      "Arcadia is a small town along SR-19 in northern Hamilton County, with an agricultural backbone, a compact downtown, and a growing arts presence. Its commercial concrete needs are real if modest — downtown sidewalks and storefronts, ag and grain facilities, and small commercial sites — and we serve them as part of our home county rather than treating the north end as out of reach.",
+    localContext: [
+      "The SR-19 corridor running through northern Hamilton County",
+      "Downtown Arcadia and its Main Street storefronts",
+      "Agricultural and grain-handling facilities around town",
+      "Arcadia's arts community and small commercial sites",
+      "Proximity to Atlanta and the county's northern edge",
+    ],
+    sections: [
+      {
+        h2: "Small-town commercial concrete, served properly",
+        paragraphs: [
+          "Arcadia's commercial footprint is compact — a downtown core along Main Street, businesses on the SR-19 corridor, and agricultural facilities around the town — but the concrete those properties depend on is no less important to them. A cracked storefront sidewalk or a failing facility slab is the same problem in Arcadia as anywhere, and it deserves the same real repair rather than a brush-off because the town is small.",
+          "We bring the full commercial scope to Arcadia: downtown sidewalk and entrance repair, ag and commercial facility slabs, parking and curbs, and ADA access — assessed and documented the same way we do across the county.",
+        ],
+      },
+      {
+        h2: "Agricultural and facility concrete",
+        paragraphs: [
+          "Arcadia's agricultural and grain-handling facilities put heavy, concentrated loads on their concrete — equipment, trucks, and material handling that ordinary light-duty slabs aren't built for. We repair and rebuild that facility concrete engineered for the real loads, so a pad or slab fix holds up to the operation rather than failing under the next season's traffic.",
+        ],
+      },
+      {
+        h2: "Keeping a compact downtown safe and presentable",
+        paragraphs: [
+          "Downtown Arcadia's Main Street storefronts and sidewalks carry the town's commercial identity, and the pedestrian concrete there ages like any established downtown — scaling, settling, and opening trip hazards over the years. We repair those surfaces to keep the district safe and looking maintained, with minimal disruption to the businesses along it.",
+        ],
+      },
+      {
+        h2: "No property too far north — or too small",
+        paragraphs: [
+          "Arcadia sits near the county's northern edge, and smaller projects there get the same treatment as larger ones elsewhere: an on-site assessment, an honest line-item proposal, and documented work. If a scope is genuinely small, we'll tell you whether it's worth a dedicated trip or better bundled with other north-county work — but we don't write off the north end.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Arcadia within your service area?",
+        a: "Yes — Arcadia is part of Hamilton County and part of our service area. We bring the same crews, process, and documentation to the county's northern edge that we use in its southern cities; the location factors into how we schedule, not whether we serve it.",
+      },
+      {
+        q: "Do you handle agricultural and grain-facility concrete in Arcadia?",
+        a: "We do. Ag and grain-handling facilities put heavy, concentrated equipment and truck loads on their concrete, and we repair and rebuild those slabs and pads engineered for the real loads — so the fix holds up to the operation instead of failing under the next season's traffic.",
+      },
+      {
+        q: "Can you take on smaller commercial concrete projects in Arcadia?",
+        a: "Yes. A small downtown storefront sidewalk or a single facility slab gets the same documented process as a larger job. If a scope is genuinely small for a trip to the north end, we'll be straight about whether it's best on its own or bundled with other north-county work to keep it cost-effective for you.",
+      },
+    ],
+    internalLinks: [
+      { href: "/sidewalk-repair", anchor: "downtown sidewalk repair" },
+      { href: "/dumpster-pad-repair", anchor: "facility and dumpster pad repair" },
+      { href: "/parking-lot-concrete-repair", anchor: "parking and lot concrete repair" },
+      { href: "/curb-repair", anchor: "curb and drainage repair" },
+    ],
+    project: {
+      title: "Arcadia downtown storefront — sidewalk and entrance repair",
+      summary:
+        "Replaced failing storefront sidewalk panels and restored an entrance along Arcadia's Main Street, scheduled around the business to keep the downtown frontage open.",
+      metrics: ["Storefront panels replaced", "Entrance restored", "Business kept open"],
+    },
+    images: [
+      {
+        position: "hero",
+        filename: "concrete-repair-arcadia-in-downtown.jpg",
+        alt: "Downtown storefront sidewalk concrete repair in Arcadia, northern Hamilton County, Indiana",
+        caption: "Downtown and facility concrete repair for Arcadia.",
+      },
+    ],
+  },
 ];
 
 export function getCityContent(slug: string): RichCity | undefined {

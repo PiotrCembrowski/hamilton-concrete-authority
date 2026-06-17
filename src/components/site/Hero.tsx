@@ -86,13 +86,15 @@ export function Hero() {
               Request a Site Assessment
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </Link>
-            <a
-              href={SITE.phoneHref}
-              data-testid="hero-phone-link"
-              className="inline-flex items-center gap-2 rounded-sm border border-white/20 bg-white/0 px-6 py-3.5 font-display text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:bg-white/10"
-            >
-              <Phone className="h-4 w-4" /> Call {SITE.phone}
-            </a>
+            {SITE.hasPhone && (
+              <a
+                href={SITE.phoneHref}
+                data-testid="hero-phone-link"
+                className="inline-flex items-center gap-2 rounded-sm border border-white/20 bg-white/0 px-6 py-3.5 font-display text-sm font-semibold uppercase tracking-wider text-white transition-colors hover:bg-white/10"
+              >
+                <Phone className="h-4 w-4" /> Call {SITE.phone}
+              </a>
+            )}
           </motion.div>
 
           <motion.ul

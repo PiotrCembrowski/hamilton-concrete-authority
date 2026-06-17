@@ -146,13 +146,15 @@ export function ArticlePageTemplate({ article }: { article: RichArticle }) {
                 >
                   Request a Free Assessment
                 </Link>
-                <a
-                  href={SITE.phoneHref}
-                  data-testid="article-cta-phone-link"
-                  className="inline-flex items-center justify-center gap-2 rounded-sm border border-border px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-foreground hover:border-accent hover:text-accent"
-                >
-                  <Phone className="h-4 w-4 text-accent" /> {SITE.phone}
-                </a>
+                {SITE.hasPhone && (
+                  <a
+                    href={SITE.phoneHref}
+                    data-testid="article-cta-phone-link"
+                    className="inline-flex items-center justify-center gap-2 rounded-sm border border-border px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-foreground hover:border-accent hover:text-accent"
+                  >
+                    <Phone className="h-4 w-4 text-accent" /> {SITE.phone}
+                  </a>
+                )}
               </div>
             </div>
           </aside>

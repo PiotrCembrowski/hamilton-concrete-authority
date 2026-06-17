@@ -4,11 +4,11 @@ import type { FAQ } from "@/data/content-types";
 
 export const ORG_ID = `${BASE_URL}/#business`;
 
-// Phone/address are NOT real yet (see src/data/site.ts). We must not emit a
-// placeholder token or a fake/partial address into structured data, so both are
-// included conditionally. Replace {{REAL_PHONE}} and add a verified address, then
+// Phone/address are NOT real yet (see src/data/site.ts). We must not emit an empty
+// string, a token, or a fake/partial address into structured data, so both are
+// included conditionally. Set NEXT_PUBLIC_PHONE and add a verified address, then
 // LocalBusiness, Google Business Profile, and citations can go live.
-const REAL_PHONE = SITE.phone.includes("{{") ? undefined : SITE.phone;
+const REAL_PHONE = SITE.hasPhone ? SITE.phone : undefined;
 
 // Service Area Business pattern: areaServed instead of a public address.
 // Carmel, Fishers, Noblesville, and Westfield are in Hamilton County; Zionsville

@@ -41,6 +41,43 @@ A slab that is dusting, polishing unevenly, or wearing in the main travel lanes 
 
 The point of a cadence is to catch joints and cracks while they are still cheap to address. Walk the high-traffic aisles and dock areas on a set schedule, log spalled joints, opening cracks, and surface wear, and prioritize the items in the heaviest-traffic lanes. The aim is a short, recurring punch list handled on planned downtime — not a reactive scramble when a joint has failed badly enough to stop a lift.
 
+## Flatness isn't cosmetic — it's throughput
+
+A floor's flatness directly affects how fast and how safely lifts move, especially as racking goes higher and very-narrow-aisle equipment gets less forgiving. As joints spall and slabs fault across cracks, the floor develops the small vertical steps that jar operators, shake loads at height, and force lifts to slow down. What reads as a minor surface issue at ground level becomes a real handling and safety problem at a thirty-foot lift height. Maintaining a flat, continuous surface is maintaining throughput.
+
+## Sealing, densifying, and dust control
+
+Bare or worn concrete sheds fine dust that settles on product, equipment, and inventory and degrades air quality — a particular problem in food, pharmaceutical, and clean-handling operations. Densifying and sealing the slab hardens the wear surface, cuts the dusting, and makes the floor easier to clean. On a slab that is sound but tired, this is a maintenance-level intervention that restores the surface and defers replacement, and it is worth doing before the surface wears through to a costlier repair.
+
+## Build a floor budget before the floor builds it for you
+
+Floors fail predictably enough to budget for, which is far cheaper than reacting to them. A simple plan — a recurring joint and crack inspection, a backlog of prioritized repairs, and a small annual allocation to work that backlog down — keeps the floor ahead of the damage. Compare that to deferring until a joint has failed badly enough to damage equipment or stop a lift, then paying for an emergency repair plus the downtime. A modest, planned floor budget is one of the better-returning lines in a facility's maintenance plan.
+
+## When maintenance becomes repair becomes replacement
+
+Floor work is a continuum, and catching it early keeps it on the cheap end. A sealed joint and a filled crack are maintenance. A rebuilt spalled joint edge or a stabilized faulted crack is repair. A slab left until it is broken across wide areas, delaminating, or failing structurally is replacement — by far the most expensive and disruptive outcome. The entire point of a maintenance program is to keep the floor on the left side of that continuum, where the interventions are small, fast, and don't stop the operation.
+
+## Who should walk the floor, and what to log
+
+The inspection doesn't require an engineer — it requires consistency. A facilities or maintenance lead walking the main travel aisles and dock areas on a set schedule, logging spalled joints, opening cracks, and surface wear with a location and a photo, produces exactly the prioritized punch list a contractor needs. The discipline is in doing it on a cadence and acting on the worst items before they widen, not in the sophistication of the inspection.
+
+## A starter floor-maintenance checklist
+
+If you're building a floor program from scratch, start here and adapt it to your operation:
+
+- Walk the primary forklift aisles and dock approaches on a set cadence, logging spalled joints, opening or faulting cracks, and surface wear with a location and photo.
+- Prioritize the joints first — they do the most damage to equipment and are the highest-return repair.
+- Re-fill and rebuild joints with the correct semi-rigid material before the edges break down further.
+- Stabilize and seal cracks while they're tight, before they fault under load.
+- Densify and seal worn, dusting surfaces rather than waiting for them to fail through.
+- Schedule repairs into planned downtime, using rapid-set materials where an aisle has to carry traffic again fast.
+
+## The payoff of staying ahead of the floor
+
+None of this stops the operation, and all of it is cheaper than the equipment wear and emergency repairs that neglect guarantees. Treat the list as a living document — as you learn where your floor fails first, weight the inspection toward those zones — and the floor stays ahead of the damage instead of chasing it.
+
+The payoff isn't abstract: a floor on a maintenance cadence keeps lifts moving at full speed, protects the equipment budget, holds down dust, and never produces the surprise of an aisle that has to close because a joint finally gave out. For a facility where the floor is part of the machinery, that predictability is worth far more than the modest cost of the program.
+
 ## FAQ (unique)
 
 ### How often should we inspect a warehouse floor?

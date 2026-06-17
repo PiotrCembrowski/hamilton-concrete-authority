@@ -43,7 +43,7 @@ boards, owners) and exist to earn links and pass equity to the service and city 
 - **URL:** /resources/concrete-repair-vs-replacement
 - **Primary keyword:** concrete repair vs replacement
 - **Search intent:** Commercial investigation (T3): decision-stage. Supports /concrete-replacement and /commercial-concrete-repair.
-- **Outline:** The question that saves the most money → The three tests we apply → When repair is clearly right → When replacement is the better spend → Running the lifetime-cost math
+- **Outline:** The question that saves the most money → The three tests we apply → When repair is clearly right → When replacement is the better spend → Running the lifetime-cost math → The costs that never show up on the estimate → Phasing dissolves the all-or-nothing trap → Give the decision-maker something they can approve → A quick gut-check before you decide
 - **Internal links:** /commercial-concrete-repair, /concrete-replacement, /concrete-slab-leveling, /resources/commercial-concrete-repair-cost-guide
 - **CTA:** Not sure which side of the line your concrete is on? A free assessment will tell you — in writing, with the reasoning attached.
 
@@ -51,7 +51,7 @@ boards, owners) and exist to earn links and pass equity to the service and city 
 - **URL:** /resources/ada-compliance-sidewalk-requirements
 - **Primary keyword:** ADA sidewalk compliance requirements
 - **Search intent:** Informational (T4): managers checking exposure. Supports /ada-compliance-repairs and /sidewalk-repair.
-- **Outline:** Why accessible routes draw complaints → Running slope and cross-slope → Landings, width, and surface → Detectable warnings (truncated domes) → How settlement turns compliant concrete non-compliant
+- **Outline:** Why accessible routes draw complaints → Running slope and cross-slope → Landings, width, and surface → Detectable warnings (truncated domes) → How settlement turns compliant concrete non-compliant → Accessible parking and access aisles count too → How a compliant property drifts out of compliance → What an accessibility-aware repair actually includes → Why documentation is the quiet hero of access compliance
 - **Internal links:** /ada-compliance-repairs, /sidewalk-repair, /trip-hazard-removal, /resources/property-manager-concrete-inspection-checklist
 - **CTA:** Worried about an accessible route on your property? Request an assessment — we measure the slopes, identify what is out of conformance, and document the corrections.
 
@@ -59,7 +59,7 @@ boards, owners) and exist to earn links and pass equity to the service and city 
 - **URL:** /resources/common-causes-of-concrete-failure
 - **Primary keyword:** causes of commercial concrete failure
 - **Search intent:** Informational (T4): top-of-funnel diagnosis. Links down to most service pages.
-- **Outline:** Failure has a cause — and the cause decides the fix → 1. Freeze-thaw cycling → 2. Expansive clay soils → 3. Road salt and de-icing chemicals → 4. Poor sub-base and drainage → 5. Bad jointing and installation
+- **Outline:** Failure has a cause — and the cause decides the fix → 1. Freeze-thaw cycling → 2. Expansive clay soils → 3. Road salt and de-icing chemicals → 4. Poor sub-base and drainage → 5. Bad jointing and installation → Telling the causes apart → The causes rarely act alone → What prevention actually looks like → Why 'it's just a crack' costs the most → The takeaway for a property manager
 - **Internal links:** /concrete-crack-repair, /concrete-spalling-repair, /concrete-replacement, /concrete-joint-repair-sealing
 - **CTA:** Seeing one of these on your property? A free assessment identifies the cause, not just the symptom — so the repair actually holds.
 
@@ -67,7 +67,7 @@ boards, owners) and exist to earn links and pass equity to the service and city 
 - **URL:** /resources/warehouse-floor-maintenance-guide
 - **Primary keyword:** warehouse floor maintenance
 - **Search intent:** Informational (T4): facility managers planning upkeep. Supports /warehouse-floor-repair and /concrete-joint-repair-sealing.
-- **Outline:** Treat the floor as equipment, not as scenery → Joints are the priority, every time → Catch cracks before they fault → Surface wear, dusting, and densification → An inspection cadence that fits the operation
+- **Outline:** Treat the floor as equipment, not as scenery → Joints are the priority, every time → Catch cracks before they fault → Surface wear, dusting, and densification → An inspection cadence that fits the operation → Flatness isn't cosmetic — it's throughput → Sealing, densifying, and dust control → Build a floor budget before the floor builds it for you → When maintenance becomes repair becomes replacement → Who should walk the floor, and what to log → A starter floor-maintenance checklist → The payoff of staying ahead of the floor
 - **Internal links:** /warehouse-floor-repair, /concrete-joint-repair-sealing, /concrete-crack-repair, /loading-dock-repair
 - **CTA:** Want a floor program instead of fire drills? Request an assessment — we will walk the aisles and hand you a prioritized maintenance scope.
 
@@ -75,7 +75,7 @@ boards, owners) and exist to earn links and pass equity to the service and city 
 - **URL:** /resources/property-manager-concrete-inspection-checklist
 - **Primary keyword:** concrete inspection checklist property managers
 - **Search intent:** Informational (T4): linkable lead magnet. Supports trip-hazard, sidewalk, and ADA pages.
-- **Outline:** What a manager can — and should — catch → Walkways and entrances → Accessible routes and ramps → Parking, curbs, and drainage → Docks, floors, and service areas → When to call a specialist
+- **Outline:** What a manager can — and should — catch → Walkways and entrances → Accessible routes and ramps → Parking, curbs, and drainage → Docks, floors, and service areas → When to call a specialist → Document as you go — it's half the value → Grade what you find — don't just list it → Turn the walkthrough into a budget → Time it to the seasons → Red flags that warrant a call now → A one-page walkthrough route
 - **Internal links:** /trip-hazard-removal, /sidewalk-repair, /ada-compliance-repairs, /resources/ada-compliance-sidewalk-requirements
 - **CTA:** Turn your walkthrough into a plan — request a free assessment and we will document conditions and hand you a prioritized scope.
 
@@ -83,7 +83,7 @@ boards, owners) and exist to earn links and pass equity to the service and city 
 - **URL:** /resources/retail-center-sidewalk-maintenance-guide
 - **Primary keyword:** retail center sidewalk maintenance
 - **Search intent:** Informational (T4): retail property managers. Supports /sidewalk-repair and /trip-hazard-removal.
-- **Outline:** The sidewalk does double duty at a retail center → Trip-hazard control is the core discipline → Salt season is hard on retail walks → Keep the center open while you maintain it → Build it into a program, not a reaction
+- **Outline:** The sidewalk does double duty at a retail center → Trip-hazard control is the core discipline → Salt season is hard on retail walks → Keep the center open while you maintain it → Build it into a program, not a reaction → The economics of staying ahead of it → Coordinating with tenants and CAM → Winter operations and salt strategy → Make it an annual program, not a reaction → A simple retail sidewalk maintenance cycle → Run it as a loop, across the whole portfolio
 - **Internal links:** /sidewalk-repair, /trip-hazard-removal, /concrete-spalling-repair, /resources/property-manager-concrete-inspection-checklist
 - **CTA:** Run a tighter center — request a free assessment and we will survey your walks, remediate the hazards, and set up a maintenance cadence.
 

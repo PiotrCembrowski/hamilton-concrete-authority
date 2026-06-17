@@ -50,13 +50,15 @@ export function CityPageTemplate({ city }: { city: RichCity }) {
               >
                 Request {city.name} Assessment <ArrowRight className="h-4 w-4" />
               </Link>
-              <a
-                href={SITE.phoneHref}
-                data-testid="city-hero-phone-link"
-                className="inline-flex items-center gap-2 rounded-sm border border-white/20 px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-white hover:bg-white/10"
-              >
-                <Phone className="h-4 w-4" /> {SITE.phone}
-              </a>
+              {SITE.hasPhone && (
+                <a
+                  href={SITE.phoneHref}
+                  data-testid="city-hero-phone-link"
+                  className="inline-flex items-center gap-2 rounded-sm border border-white/20 px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider text-white hover:bg-white/10"
+                >
+                  <Phone className="h-4 w-4" /> {SITE.phone}
+                </a>
+              )}
             </div>
           </div>
           <Reveal>

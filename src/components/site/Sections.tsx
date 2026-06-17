@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
-import { SERVICES, INDUSTRIES, PROBLEMS, BENEFITS, PROCESS, CITIES, CASE_STUDIES, FAQS, SITE } from "@/data/site";
+import { SERVICES, PROBLEMS, BENEFITS, PROCESS, CITIES, FAQS, SITE } from "@/data/site";
+import { INDUSTRY_PAGES } from "@/data/industries";
+import { CASE_STUDIES_CONTENT } from "@/data/case-studies";
 import { EstimateForm } from "./EstimateForm";
 
 export function SectionHeader({
@@ -76,14 +78,22 @@ export function IndustriesGrid() {
             intro="From multi-tenant retail to distribution centers, we tailor scope, scheduling, and reporting to your asset class."
           />
         </Reveal>
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {INDUSTRIES.map((ind, i) => (
-            <Reveal key={ind.title} delay={i * 0.03}>
-              <div className="group h-full rounded-sm border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-accent">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {INDUSTRY_PAGES.map((ind, i) => (
+            <Reveal key={ind.slug} delay={i * 0.03}>
+              <Link
+                href={`/${ind.slug}`}
+                className="group block h-full rounded-sm border border-border bg-card p-5 transition-all hover:-translate-y-1 hover:border-accent"
+              >
                 <div className="h-1 w-10 bg-accent" />
-                <h3 className="mt-4 font-display text-lg font-semibold text-foreground">{ind.title}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{ind.desc}</p>
-              </div>
+                <h3 className="mt-4 font-display text-lg font-semibold text-foreground group-hover:text-accent">
+                  {ind.title}
+                </h3>
+                <p className="mt-2 text-sm text-muted-foreground">{ind.short}</p>
+                <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-[color:var(--color-primary)] group-hover:text-accent">
+                  Learn more <ArrowUpRight className="h-3.5 w-3.5" />
+                </span>
+              </Link>
             </Reveal>
           ))}
         </div>
@@ -198,7 +208,7 @@ export function ServiceArea() {
             intro="On-site assessments and repair crews dispatched throughout Hamilton County, Indiana."
           />
         </Reveal>
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {CITIES.map((c, i) => (
             <Reveal key={c.slug} delay={i * 0.04}>
               <Link
@@ -234,27 +244,28 @@ export function CaseStudies() {
           />
         </Reveal>
         <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {CASE_STUDIES.map((cs, i) => (
-            <Reveal key={cs.title} delay={i * 0.04}>
-              <article className="flex h-full flex-col rounded-sm border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-accent">
+          {CASE_STUDIES_CONTENT.map((cs, i) => (
+            <Reveal key={cs.slug} delay={i * 0.04}>
+              <Link
+                href={cs.path}
+                className="group flex h-full flex-col rounded-sm border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-accent"
+              >
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="font-display text-xs uppercase tracking-[0.2em] text-accent">
                     {cs.industry}
                   </span>
                   <span className="rounded-sm border border-dashed border-accent px-1.5 py-0.5 font-display text-[9px] font-bold uppercase tracking-wider text-accent">
-                    Placeholder — replace with real project
+                    Placeholder
                   </span>
                 </div>
-                <h3 className="mt-3 font-display text-lg font-semibold text-foreground">{cs.title}</h3>
-                <p className="mt-3 text-sm text-muted-foreground">{cs.summary}</p>
-                <ul className="mt-5 space-y-1.5 border-t border-border pt-4">
-                  {cs.metrics.map((m) => (
-                    <li key={m} className="flex items-center gap-2 text-xs text-foreground">
-                      <span className="h-1.5 w-1.5 rounded-full bg-accent" /> {m}
-                    </li>
-                  ))}
-                </ul>
-              </article>
+                <h3 className="mt-3 font-display text-lg font-semibold text-foreground group-hover:text-accent">
+                  {cs.title}
+                </h3>
+                <p className="mt-3 flex-1 text-sm text-muted-foreground">{cs.summary}</p>
+                <span className="mt-5 inline-flex items-center gap-1.5 border-t border-border pt-4 text-xs font-semibold uppercase tracking-wider text-[color:var(--color-primary)] group-hover:text-accent">
+                  Read the case study <ArrowUpRight className="h-3.5 w-3.5" />
+                </span>
+              </Link>
             </Reveal>
           ))}
         </div>
@@ -313,12 +324,14 @@ export function FinalCTA() {
               Tell us about your property and a specialist will reach out within one business day to schedule your on-site assessment.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <div className="rounded-sm border border-white/10 bg-white/[0.04] p-4">
-                <div className="font-display text-xs uppercase tracking-[0.18em] text-accent">Call Direct</div>
-                <a href={SITE.phoneHref} className="mt-1 block font-display text-lg font-semibold text-white hover:text-accent">
-                  {SITE.phone}
-                </a>
-              </div>
+              {SITE.hasPhone && (
+                <div className="rounded-sm border border-white/10 bg-white/[0.04] p-4">
+                  <div className="font-display text-xs uppercase tracking-[0.18em] text-accent">Call Direct</div>
+                  <a href={SITE.phoneHref} className="mt-1 block font-display text-lg font-semibold text-white hover:text-accent">
+                    {SITE.phone}
+                  </a>
+                </div>
+              )}
               <div className="rounded-sm border border-white/10 bg-white/[0.04] p-4">
                 <div className="font-display text-xs uppercase tracking-[0.18em] text-accent">Email</div>
                 <a href={`mailto:${SITE.email}`} className="mt-1 block text-sm font-medium text-white hover:text-accent break-all">

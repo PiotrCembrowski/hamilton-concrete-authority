@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CityPageTemplate } from "@/components/site/CityPageTemplate";
+import { IndustryPageTemplate } from "@/components/site/IndustryPageTemplate";
 import { ServicePageTemplate } from "@/components/site/ServicePageTemplate";
 import { FinalCTA } from "@/components/site/Sections";
 import { SERVICES } from "@/data/site";
 import { CITIES_CONTENT, getCityContent } from "@/data/cities";
+import { INDUSTRY_PAGES, getIndustryPage } from "@/data/industries";
 import {
   BASE_URL,
   getCityMetaBySlug,
+  getIndustryMetaBySlug,
   getServiceMetaBySlug,
   isCitySlug,
+  isIndustrySlug,
   isServiceSlug,
 } from "@/lib/route-seo";
 
@@ -48,6 +52,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const industryMeta = getIndustryMetaBySlug(slug);
+  if (industryMeta) {
+    return {
+      title: industryMeta.title,
+      description: industryMeta.description,
+      alternates: { canonical: `${BASE_URL}${industryMeta.canonical}` },
+      openGraph: {
+        title: industryMeta.title,
+        description: industryMeta.description,
+        url: `${BASE_URL}${industryMeta.canonical}`,
+      },
+    };
+  }
+
   return {};
 }
 
@@ -55,6 +73,7 @@ export async function generateStaticParams() {
   return [
     ...SERVICES.map((service) => ({ slug: service.slug })),
     ...CITIES_CONTENT.map((c) => ({ slug: `concrete-repair-${c.slug}-in` })),
+    ...INDUSTRY_PAGES.map((i) => ({ slug: i.slug })),
   ];
 }
 
@@ -81,6 +100,18 @@ export default async function SlugPage({ params }: PageProps) {
     return (
       <>
         <CityPageTemplate city={city} />
+        <FinalCTA />
+      </>
+    );
+  }
+
+  if (isIndustrySlug(slug)) {
+    const industry = getIndustryPage(slug);
+    if (!industry) notFound();
+
+    return (
+      <>
+        <IndustryPageTemplate industry={industry} />
         <FinalCTA />
       </>
     );

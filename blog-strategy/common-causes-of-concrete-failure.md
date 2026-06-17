@@ -45,6 +45,32 @@ What is under the slab matters more than the slab. A poorly compacted, under-dra
 
 Concrete will crack; jointing decides where. Control joints cut to the right depth and spacing direct that cracking along planned lines. When joints are missing, too shallow, or spaced wrong — the hallmarks of a cheap install — the slab map-cracks randomly within a couple of seasons. Overworked finishing and the wrong mix for the exposure compound it. Much of what looks like premature failure is really an installation that skipped the unglamorous fundamentals.
 
+## Telling the causes apart
+
+Because the fixes differ, the first job is reading which force is actually at work — and the clues are usually visible. Surface flaking and exposed aggregate with the slab otherwise intact points to freeze-thaw and de-icer attack on the surface. Panels lifted at one edge or dropped at a corner, with cracks that reopen seasonally, point to clay-soil movement and base problems below. Random map-cracking across a whole slab within a couple of seasons points to jointing and installation. Cracks radiating from a fixed point, or following a buried utility line, point to a localized base or drainage failure there.
+
+None of this is guesswork once you know what to look for, and getting it right is what keeps a repair from being aimed at the wrong target.
+
+## The causes rarely act alone
+
+In the real world these forces compound. A poorly drained base lets water sit, which feeds freeze-thaw and softens the soil that then settles. De-icing salt opens the surface, which lets more water reach the base and the reinforcement. A missing control joint lets a shrinkage crack form, which becomes the entry point for the water that drives everything else. That is why a surface can look like it has 'a crack problem' when the real story is drainage feeding three failure modes at once.
+
+We scope for the chain, not the single symptom — because sealing the crack while ignoring the drainage that opened it just buys a season.
+
+## What prevention actually looks like
+
+The same short list of measures slows every one of these causes. Keep joints sealed and cracks closed so water cannot get into the slab or the base. Maintain a quality penetrating sealer on the surfaces most exposed to salt and freeze-thaw. Make sure water drains away from the concrete rather than pooling against or under it. Use sensible de-icing practice — don't bury young or already-scaling concrete in aggressive chlorides. And insist on proper jointing and base preparation on any new or replaced concrete in the first place.
+
+None of these are expensive relative to the failures they prevent, and together they are the difference between concrete that meets its service life and concrete that fails years early.
+
+## Why 'it's just a crack' costs the most
+
+The most expensive concrete failures are almost always the ones dismissed early. A hairline crack, an open joint, or a patch of surface scaling looks trivial, so it waits — through a winter that widens it, a wet spring that undermines it, and another freeze that breaks its edges. By the time it is obviously a problem, the cheap fix is gone and the bill is a multiple of what early action would have cost. Treating the small, correctly-diagnosed signs promptly is the single highest-return concrete decision a property makes.
+
+## The takeaway for a property manager
+
+You don't need to diagnose concrete like an engineer — you need to recognize that failure has a cause, and that the cause decides the fix. When a surface starts scaling, a panel lifts, a crack reopens, or water pools where it shouldn't, the useful instinct is not 'patch it' but 'why is this happening?' A repair aimed at the cause holds; one aimed at the symptom comes back. The fastest way to overspend on concrete over time is to keep treating symptoms — and the fastest way to spend the right amount is to insist, every time, on understanding why the failure is there before deciding how to fix it.
+
 ## FAQ (unique)
 
 ### Is cracking always a sign of a serious problem?
