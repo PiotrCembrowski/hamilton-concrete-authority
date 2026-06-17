@@ -3,7 +3,6 @@ import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { SERVICES, PROBLEMS, BENEFITS, PROCESS, CITIES, FAQS, SITE } from "@/data/site";
 import { INDUSTRY_PAGES } from "@/data/industries";
-import { CASE_STUDIES_CONTENT } from "@/data/case-studies";
 import { EstimateForm } from "./EstimateForm";
 
 export function SectionHeader({
@@ -223,47 +222,6 @@ export function ServiceArea() {
                 </div>
                 <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[color:var(--color-primary)] group-hover:text-accent">
                   View location <ArrowUpRight className="h-3.5 w-3.5" />
-                </span>
-              </Link>
-            </Reveal>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-export function CaseStudies() {
-  return (
-    <section className="section-pad bg-[color:var(--color-surface)]">
-      <div className="container-x">
-        <Reveal>
-          <SectionHeader
-            eyebrow="Case Studies"
-            title="Real Commercial Projects, Documented Outcomes"
-          />
-        </Reveal>
-        <div className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {CASE_STUDIES_CONTENT.map((cs, i) => (
-            <Reveal key={cs.slug} delay={i * 0.04}>
-              <Link
-                href={cs.path}
-                className="group flex h-full flex-col rounded-sm border border-border bg-card p-6 transition-all hover:-translate-y-1 hover:border-accent"
-              >
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="font-display text-xs uppercase tracking-[0.2em] text-accent">
-                    {cs.industry}
-                  </span>
-                  <span className="rounded-sm border border-dashed border-accent px-1.5 py-0.5 font-display text-[9px] font-bold uppercase tracking-wider text-accent">
-                    Placeholder
-                  </span>
-                </div>
-                <h3 className="mt-3 font-display text-lg font-semibold text-foreground group-hover:text-accent">
-                  {cs.title}
-                </h3>
-                <p className="mt-3 flex-1 text-sm text-muted-foreground">{cs.summary}</p>
-                <span className="mt-5 inline-flex items-center gap-1.5 border-t border-border pt-4 text-xs font-semibold uppercase tracking-wider text-[color:var(--color-primary)] group-hover:text-accent">
-                  Read the case study <ArrowUpRight className="h-3.5 w-3.5" />
                 </span>
               </Link>
             </Reveal>

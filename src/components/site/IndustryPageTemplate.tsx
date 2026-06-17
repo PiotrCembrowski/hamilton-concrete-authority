@@ -2,7 +2,6 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Building2, CheckCircle2, Phone } from "lucide-react";
 import type { RichIndustry } from "@/data/content-types";
 import { SERVICES, SITE } from "@/data/site";
-import { Reveal } from "./Reveal";
 import { EstimateForm } from "./EstimateForm";
 import { FigurePlaceholder } from "./FigurePlaceholder";
 import { breadcrumbSchema, faqSchema } from "./Schema";

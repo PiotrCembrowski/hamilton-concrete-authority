@@ -68,7 +68,6 @@ export function Footer() {
           <h4 className="font-display text-xs uppercase tracking-[0.18em] text-accent">Company</h4>
           <ul className="mt-4 space-y-2 text-sm">
             <li><Link href="/industries" className="text-white/70 hover:text-accent">Industries Served</Link></li>
-            <li><Link href="/case-studies" className="text-white/70 hover:text-accent">Case Studies</Link></li>
             <li><Link href="/resources" className="text-white/70 hover:text-accent">Resource Center</Link></li>
             <li><Link href="/contact" className="text-white/70 hover:text-accent">Request Assessment</Link></li>
           </ul>
