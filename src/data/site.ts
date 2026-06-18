@@ -1,7 +1,7 @@
 // Single source of truth for the tracking phone number.
 // Sourced from NEXT_PUBLIC_PHONE (set per environment). When unset it stays EMPTY
 // and the UI degrades gracefully — no phone link, no broken `tel:`, and never a
-// `{{...}}` token rendered to users. The fake (317) 555-0214 number is gone for good.
+// `{{...}}` token rendered to users. The old hard-coded placeholder number is gone for good.
 // TODO: set the real tracking number via NEXT_PUBLIC_PHONE before launch.
 // REQUIRES HUMAN REVIEW — real phone number is unknown.
 const PHONE = (process.env.NEXT_PUBLIC_PHONE ?? "").trim();
